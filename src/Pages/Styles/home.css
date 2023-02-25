@@ -1,0 +1,135 @@
+.intro-section {
+  padding: 3% 5%;
+  display: flex;
+  background-color: #3e214f;
+  color: white;
+}
+.intro-section .info-div {
+  flex: 1.5;
+}
+.intro-section .info-div h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 2%;
+}
+.intro-section .info-div h1 span {
+  color: #e6767a;
+}
+.intro-section .info-div p {
+  width: 80%;
+}
+.intro-section .info-div button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.intro-section .info-div button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.intro-section .image-div {
+  margin-top: 2%;
+  flex: 1;
+  text-align: right;
+}
+.intro-section .image-div img {
+  width: 660px;
+}
+
+.section2 {
+  display: flex;
+  padding: 3% 5%;
+  color: #3e214f;
+}
+.section2 .image-div {
+  flex: 1;
+  border-bottom: 0.5px solid lightgray;
+}
+.section2 .section2-content {
+  flex: 1;
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 4%;
+}
+.section2 .section2-content h2 {
+  font-size: 32px;
+}
+.section2 .section2-content p {
+  line-height: 35px;
+}
+.section2 .section2-content button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.section2 .section2-content button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section3 {
+  display: flex;
+  padding: 3% 5%;
+  color: #3e214f;
+}
+.section3 .image-div {
+  flex: 1;
+  margin-top: 10px;
+}
+.section3 .section3-content {
+  flex: 1;
+}
+.section3 .section3-content h2 {
+  font-size: 32px;
+}
+.section3 .section3-content p {
+  line-height: 35px;
+}
+.section3 .section3-content li {
+  margin: 2% 0px;
+}
+.section3 .section3-content button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.section3 .section3-content button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section4 {
+  text-align: center;
+  padding: 3% 5%;
+  color: #3e214f;
+  background-color: #e6767a;
+}
+.section4 .section4-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section4 .section4-child div {
+  flex: 1;
+  background-color: white;
+  margin: 1%;
+  padding: 1.5%;
+  text-align: left;
+  border-radius: 10px;
+}
+.section4 .section4-child h4 {
+  margin: 0px;
+}/*# sourceMappingURL=home.css.map */
