@@ -1,9 +1,7 @@
 .login {
-  width: 400px;
   display: flex;
-  margin: 42px auto;
   justify-content: center;
-  gap: 30px;
+  gap: 24px;
   flex-direction: column;
 
   .login_header {
@@ -27,21 +25,7 @@
     text-align: center;
   }
 
-  button {
-    background: #d7d7d7;
-    height: 54px;
-    border-radius: 8px;
-    border: none;
-    font-family: "Plus Jakarta Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #535353;
-    width: 400px;
-    padding: 4px 8px;
-    gap: 10px;
-  }
+ 
 
   .divider {
     display: flex;
@@ -51,6 +35,15 @@
     hr {
       width: 179px;
       border: 1px solid #d8d8d8;
+    }
+
+    p {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #8b8b8b;
     }
   }
 
@@ -83,6 +76,26 @@
         text-align: center;
         color: #3e214f;
       }
+    }
+  }
+
+  .error_card {
+    height: 52px;
+    background: #fceced;
+    border: 1.2px solid #ff4d4f;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 4.33%;
+
+    p {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #ff4d4f;
     }
   }
 }

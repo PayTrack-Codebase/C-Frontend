@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
-import introimg from "../Svg assets/intro-image.svg";
-import subimg1 from "../Svg assets/fastCom.svg";
-import subimg2 from "../Svg assets/CC.svg";
+import introimg from "../assets/intro-image.svg";
+import subimg1 from "../assets/fastCom.svg";
+import subimg2 from "../assets/CC.svg";
 import "./Styles/home.css";
 import Footer from "../Components/Footer";
 
