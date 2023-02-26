@@ -1,0 +1,42 @@
+.form_control {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+
+  label {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #2e1818;
+
+    span {
+      color: #ff4d4f;
+    }
+  }
+
+  input {
+    height: 46px;
+    padding: 4px 0px 0px 8px;
+    margin: 0px;
+    gap: 10px;
+    width: 98%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+
+  p {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

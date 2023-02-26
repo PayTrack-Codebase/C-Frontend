@@ -1,0 +1,88 @@
+.login {
+  width: 400px;
+  display: flex;
+  margin: 42px auto;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+
+  .login_header {
+    display: flex;
+    justify-content: center;
+  }
+  .login_body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .forgot_password {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #e6767a;
+    text-align: center;
+  }
+
+  button {
+    background: #d7d7d7;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #535353;
+    width: 400px;
+    padding: 4px 8px;
+    gap: 10px;
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    hr {
+      width: 179px;
+      border: 1px solid #d8d8d8;
+    }
+  }
+
+  .ouath {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .ouath_button {
+      display: flex;
+      height: 60px;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      align-items: center;
+      padding: 0px 24px;
+
+      div {
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      p {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #3e214f;
+      }
+    }
+  }
+}
