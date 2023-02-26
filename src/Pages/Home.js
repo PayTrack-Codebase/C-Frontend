@@ -32,13 +32,13 @@ const Home = () => {
           <h4>TRUSTED AND LOVED BY TOP FINANCIAL COMPANIES</h4>
         </div>
         <div className="image-div">
-          <img src={introimg} alt="image"></img>
+          <img src={introimg} alt=""></img>
         </div>
       </div>
 
       <div className="section2">
         <div className="image-div">
-          <img src={introimg} alt="image"></img>
+          <img src={introimg} alt=""></img>
         </div>
         <div className="section2-content">
           <h4>LOAN TRACKING SYSTEMS</h4>
@@ -81,7 +81,7 @@ const Home = () => {
           </button>
         </div>
         <div className="image-div">
-          <img src={introimg} alt="image"></img>
+          <img src={introimg} alt=""></img>
         </div>
       </div>
 
@@ -90,7 +90,7 @@ const Home = () => {
         <p>We handle financial activities in a very easy and simple manner.</p>
         <div className="section4-child">
           <div>
-            <img src={subimg1} alt="image"></img>
+            <img src={subimg1} alt=""></img>
             <h4>Fast and secure method of loan tracking and disbursement</h4>
             <p>
               We offer a fast and secure method of loan tracking disbursements
@@ -99,7 +99,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src={subimg2} alt="image"></img>
+            <img src={subimg2} alt=""></img>
             <h4>Strong team of dedicated experts under one roof</h4>
             <p>
               Having all the experts under one roof allows for efficient
@@ -108,7 +108,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src={subimg1} alt="image"></img>
+            <img src={subimg1} alt=""></img>
             <h4>Real-time updates on loan tracking and transactions made</h4>
             <p>
               We provide real-time information on loan balances, payments and
@@ -117,7 +117,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src={subimg2} alt="image"></img>
+            <img src={subimg2} alt=""></img>
             <h4>Expertise and dedicated customer support</h4>
             <p>
               Our customer support team is focused solely on providing
