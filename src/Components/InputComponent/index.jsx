@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.scss"
 
-const InputComponent = ({ type, label, value, onChange }) => {
+const InputComponent = ({ type, label, value="", onChange="" }) => {
   return (
     <div className="form_control">
       <label>
