@@ -2,12 +2,14 @@ import React, { useEffect, useState } from "react";
 import Logo from "../../assets/logo.svg";
 import Indicator1 from "./assets/Indicator1.svg";
 import Indicator2 from "./assets/Indicator2.svg";
+import Indicator3 from "./assets/Indicator3.svg";
 import "./Style/index.scss";
 import AccountDetails from "./SubPages/AddDetails";
 import AddService from "./SubPages/AddService";
+import UploadDocuments from "./SubPages/Upload";
 
 const Register = () => {
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(2);
   const [heading, setHeading] = useState("Create My Account");
 
   useEffect(() => {
@@ -17,6 +19,9 @@ const Register = () => {
         break;
       case 1:
         setHeading("Account Details");
+        break;
+      case 2:
+        setHeading("Upload Documents");
         break;
       default:
         setHeading("Create My Account");
@@ -31,7 +36,16 @@ const Register = () => {
       </div>
 
       <div className="page_indicator">
-        <img src={progress ? Indicator2 : Indicator1} alt="" />
+        <img
+          src={
+            progress === 0
+              ? Indicator1
+              : progress === 1
+              ? Indicator2
+              : Indicator3
+          }
+          alt=""
+        />
       </div>
 
       <div className="header_text">
@@ -45,8 +59,10 @@ const Register = () => {
 
       {progress === 0 ? (
         <AddService setProgress={setProgress} />
+      ) : progress === 1 ? (
+        <AccountDetails setProgress={setProgress} />
       ) : (
-        <AccountDetails />
+        <UploadDocuments />
       )}
     </div>
   );
