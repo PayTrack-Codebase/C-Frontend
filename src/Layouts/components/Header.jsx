@@ -5,7 +5,7 @@ import "../Styles/Header.scss";
 const Header = () => {
   const navigate = useNavigate()
   return (
-    <div className="header">
+    <div className="auth_header">
       <div className="content">
         <p>Don’t have an account?</p>
         <button onClick={() => navigate("/auth/register")}>Get Started </button>

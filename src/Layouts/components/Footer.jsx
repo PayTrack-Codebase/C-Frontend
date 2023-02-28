@@ -4,7 +4,7 @@ import CopyRight from "../assets/CopyRight.svg";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="auth_footer">
       <div className="footer_body">
         <div className="footer_links">
           <a href="/" target="_blank" rel="noopener noreferrer">
