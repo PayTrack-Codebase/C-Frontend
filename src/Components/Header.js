@@ -29,11 +29,11 @@ const Header = () => {
         </div>
 
         <div className="buttons">
-          <Link to="login" className="btn-link">
+          <Link to="/auth/login" className="btn-link">
             Login
           </Link>
           <button className="btn">
-            <Link to="getStarted" className="link">
+            <Link to="/auth/register" className="link">
               Get Started
             </Link>
           </button>
