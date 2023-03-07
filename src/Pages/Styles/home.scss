@@ -1,0 +1,284 @@
+$primaryColor: #3e214f;
+$secondaryColor: #e6767a;
+
+.intro-section {
+  padding: 3% 5%;
+  display: flex;
+  background-color: $primaryColor;
+  color: white;
+
+  .info-div {
+    flex: 1.5;
+
+    h1 {
+      font-size: 70px;
+      margin-bottom: 0px;
+      margin-top: 2%;
+
+      span {
+        color: $secondaryColor;
+      }
+    }
+
+    p {
+      width: 80%;
+    }
+
+    button {
+      width: 150px;
+      height: 45px;
+      background-color: $secondaryColor;
+      border: none;
+      border-radius: 5px;
+      margin: 10px 30px 0px 0px;
+
+      .link {
+        color: $primaryColor;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+  .image-div {
+    margin-top: 2%;
+    flex: 1;
+    text-align: right;
+
+    img {
+      width: 660px;
+    }
+  }
+}
+.image-div-loan {
+  margin-top: 2%;
+  margin-bottom: -2.2%;
+  margin-right: -5%;
+  flex: 1;
+  text-align: center;
+
+  img {
+    width: 697px;
+    margin-bottom: -20px;
+  }
+}
+.section2 {
+  display: flex;
+  padding: 3% 5%;
+  color: $primaryColor;
+
+  .image-div {
+    flex: 1;
+    // border-bottom: 0.5px solid lightgray;
+  }
+  .section2-content {
+    flex: 1;
+    // border-bottom: 0.5px solid lightgray;
+    padding-bottom: 4%;
+
+    .no-border {
+      border: none;
+    }
+    h2 {
+      font-size: 32px;
+    }
+
+    p {
+      line-height: 35px;
+    }
+    .intro1 {
+      margin-top: 10%;
+      font-size: 50px;
+      margin-bottom: 1%;
+    }
+    .intro2 {
+      margin-top: 0px;
+    }
+    button {
+      width: 150px;
+      height: 45px;
+      background-color: $secondaryColor;
+      border: none;
+      border-radius: 5px;
+      margin: 10px 30px 0px 0px;
+
+      .link {
+        color: $primaryColor;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+.section2-heading {
+  margin-top: 5%;
+  .head {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+.section3 {
+  display: flex;
+  padding: 3% 5%;
+  color: $primaryColor;
+
+  .image-div {
+    flex: 1;
+    margin-top: 10px;
+  }
+
+  .section3-content {
+    flex: 1;
+
+    h2 {
+      font-size: 32px;
+    }
+
+    p {
+      line-height: 35px;
+    }
+    .intro1 {
+      margin-top: 10%;
+      font-size: 50px;
+      margin-bottom: 1%;
+    }
+    .intro2 {
+      margin-top: 0px;
+    }
+
+    li {
+      margin: 2% 0px;
+    }
+    button {
+      width: 150px;
+      height: 45px;
+      background-color: $secondaryColor;
+      border: none;
+      border-radius: 5px;
+      margin: 10px 30px 0px 0px;
+
+      .link {
+        color: $primaryColor;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.section4 {
+  text-align: center;
+  padding: 3% 5%;
+  color: $primaryColor;
+  background-color: $secondaryColor;
+
+  .section4-child {
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      flex: 1;
+      background-color: white;
+      margin: 1%;
+      padding: 1.5%;
+      text-align: left;
+      border-radius: 10px;
+    }
+    h4 {
+      margin: 0px;
+    }
+  }
+}
+
+.mini-vw {
+  text-align: center;
+  margin: 5% 0px;
+  border-bottom: 1px solid lightgray;
+
+  .mini-flex {
+    display: flex;
+    text-align: left;
+    margin: 5% 5%;
+    div {
+      flex: 1;
+    }
+  }
+}
+.lastSection {
+  background-color: #e6767a;
+  text-align: center;
+  color: white;
+
+  .head {
+    padding: 2% 0px;
+    h1 {
+      color: $primaryColor;
+    }
+  }
+  .ls-div {
+    display: flex;
+    padding: 3% 5%;
+    text-align: left;
+
+    .list {
+      flex: 1;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+
+      .list1 {
+        background-color: rgba(62, 33, 79, 0.15);
+        padding: 1%;
+        border-radius: 10px;
+        display: inline-flex;
+        width: 100%;
+
+        .number {
+          background-color: white;
+          color: #3e214f;
+          padding: 0.9% 2%;
+          margin-left: 2%;
+          border-radius: 50%;
+        }
+        .desc {
+          margin-top: 3%;
+          margin-left: 3%;
+        }
+      }
+      .list2 {
+        display: inline-flex;
+        .number {
+          display: none;
+        }
+        .desc {
+          margin-top: 3%;
+          margin-left: 11%;
+          color: #3e214f;
+        }
+      }
+      .list3 {
+        display: inline-flex;
+        .number {
+          display: none;
+        }
+        .desc {
+          margin-top: 3%;
+          margin-left: 11%;
+          color: #3e214f;
+        }
+      }
+    }
+    .img {
+      flex: 1;
+      margin-left: 2%;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+}

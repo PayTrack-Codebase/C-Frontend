@@ -1,0 +1,101 @@
+$textColour: white;
+$primaryColor: #3e214f;
+$secondaryColor: #e6767a;
+
+.header {
+  padding: 1% 5%;
+  border-bottom: 0.5px solid lightgray;
+  background-color: $primaryColor;
+}
+
+.header-section {
+  display: flex;
+
+  .logo-div {
+    margin-top: 6px;
+    flex: 1;
+  }
+
+  .nav-links {
+    flex: 4;
+    justify-content: flex-start;
+    margin-top: 10px;
+    display: flex;
+
+    .link {
+      color: $textColour;
+      text-decoration: none;
+      margin: 0px 15px;
+    }
+    .pop-over {
+      display: none;
+      flex-direction: column;
+      background-color: white;
+      width: fit-content;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      margin-left: -50px;
+      margin-bottom: -65px;
+      margin-top: 5px;
+
+      .plink {
+        margin: 5px;
+        text-decoration: none;
+        text-align: left;
+        border-bottom: 1px solid lightgrey;
+        color: #3e214f;
+      }
+    }
+  }
+
+  .buttons {
+    flex: 1;
+
+    .btn {
+      width: 150px;
+      height: 50px;
+      background-color: $secondaryColor;
+      border-radius: 5px;
+      border: none;
+
+      .link {
+        color: $primaryColor;
+        text-decoration: none;
+      }
+    }
+    .btn-link {
+      color: $textColour;
+      text-decoration: none;
+      margin: 0px 15px;
+    }
+  }
+}
+
+.login-header {
+  padding: 1% 5%;
+
+  .header-div {
+    float: right;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+
+  p {
+    margin-right: 2%;
+  }
+
+  .btn {
+    width: 150px;
+    height: 50px;
+    background-color: $secondaryColor;
+    border-radius: 5px;
+    border: none;
+
+    .link {
+      color: $primaryColor;
+      text-decoration: none;
+    }
+  }
+}

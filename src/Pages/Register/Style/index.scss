@@ -1,0 +1,141 @@
+.register {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-direction: column;
+
+  .register_header,
+  .page_indicator {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+
+    h5 {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+      color: #150b1a;
+      margin: 0px;
+    }
+
+    p {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #747474;
+    }
+  }
+  .add_service {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 0px;
+
+      .question {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+
+        h6 {
+          margin: 0px;
+          padding: 0px;
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 22px;
+          text-align: center;
+          color: #2e1818;
+        }
+
+        span {
+          color: #ff4d4f;
+        }
+      }
+      p {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #747474;
+        margin: 0px;
+      }
+
+      select {
+        height: 66px;
+        padding: 22px 24px 22px 24px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #777777;
+        width: 100%;
+        display: flex;
+
+        option {
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          color: #777777;
+        }
+      }
+    }
+  }
+  .account_details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0px;
+
+    .names {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+  .upload {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0px;
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 10px;
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      text-align: center;
+      color: #747474;
+    }
+  }
+}

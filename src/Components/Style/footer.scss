@@ -1,0 +1,66 @@
+$textColour: white;
+$primaryColor: #3e214f;
+$secondaryColor: #e6767a;
+$linkColor: #bfb5c4;
+
+.footer {
+  padding: 1% 5%;
+  border-bottom: 0.5px solid lightgray;
+  background-color: $primaryColor;
+  color: $textColour;
+}
+
+.footer-section {
+  h2 {
+    margin-top: 4%;
+  }
+  .btn {
+    width: 150px;
+    height: 50px;
+    background-color: $secondaryColor;
+    border-radius: 5px;
+    border: none;
+    margin-top: 1%;
+
+    .link {
+      color: $primaryColor;
+      text-decoration: none;
+    }
+  }
+
+  .logo-div {
+    margin-top: 4%;
+  }
+
+  .nav-links-div {
+    display: flex;
+    margin-top: 2%;
+
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+
+      .link {
+        text-decoration: none;
+        color: $linkColor;
+      }
+    }
+  }
+  .footer-last {
+    display: flex;
+    margin-top: 3%;
+
+    div {
+      flex: 1;
+      display: flex;
+
+      .link {
+        text-decoration: none;
+        color: $linkColor;
+        margin: 2.7% 10px;
+        font-size: small;
+      }
+    }
+  }
+}

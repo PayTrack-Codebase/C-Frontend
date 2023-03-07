@@ -1,0 +1,258 @@
+.intro-section {
+  padding: 3% 5%;
+  display: flex;
+  background-color: #3e214f;
+  color: white;
+}
+.intro-section .info-div {
+  flex: 1.5;
+}
+.intro-section .info-div h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  margin-top: 2%;
+}
+.intro-section .info-div h1 span {
+  color: #e6767a;
+}
+.intro-section .info-div p {
+  width: 80%;
+}
+.intro-section .info-div button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.intro-section .info-div button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.intro-section .image-div {
+  margin-top: 2%;
+  flex: 1;
+  text-align: right;
+}
+.intro-section .image-div img {
+  width: 660px;
+}
+
+.image-div-loan {
+  margin-top: 2%;
+  margin-bottom: -2.2%;
+  margin-right: -5%;
+  flex: 1;
+  text-align: center;
+}
+.image-div-loan img {
+  width: 697px;
+  margin-bottom: -20px;
+}
+
+.section2 {
+  display: flex;
+  padding: 3% 5%;
+  color: #3e214f;
+}
+.section2 .image-div {
+  flex: 1;
+}
+.section2 .section2-content {
+  flex: 1;
+  padding-bottom: 4%;
+}
+.section2 .section2-content .no-border {
+  border: none;
+}
+.section2 .section2-content h2 {
+  font-size: 32px;
+}
+.section2 .section2-content p {
+  line-height: 35px;
+}
+.section2 .section2-content .intro1 {
+  margin-top: 10%;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.section2 .section2-content .intro2 {
+  margin-top: 0px;
+}
+.section2 .section2-content button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.section2 .section2-content button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section2-heading {
+  margin-top: 5%;
+}
+.section2-heading .head {
+  text-align: center;
+}
+.section2-heading h2 {
+  text-align: center;
+}
+
+.section3 {
+  display: flex;
+  padding: 3% 5%;
+  color: #3e214f;
+}
+.section3 .image-div {
+  flex: 1;
+  margin-top: 10px;
+}
+.section3 .section3-content {
+  flex: 1;
+}
+.section3 .section3-content h2 {
+  font-size: 32px;
+}
+.section3 .section3-content p {
+  line-height: 35px;
+}
+.section3 .section3-content .intro1 {
+  margin-top: 10%;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.section3 .section3-content .intro2 {
+  margin-top: 0px;
+}
+.section3 .section3-content li {
+  margin: 2% 0px;
+}
+.section3 .section3-content button {
+  width: 150px;
+  height: 45px;
+  background-color: #e6767a;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 30px 0px 0px;
+}
+.section3 .section3-content button .link {
+  color: #3e214f;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section4 {
+  text-align: center;
+  padding: 3% 5%;
+  color: #3e214f;
+  background-color: #e6767a;
+}
+.section4 .section4-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section4 .section4-child div {
+  flex: 1;
+  background-color: white;
+  margin: 1%;
+  padding: 1.5%;
+  text-align: left;
+  border-radius: 10px;
+}
+.section4 .section4-child h4 {
+  margin: 0px;
+}
+
+.mini-vw {
+  text-align: center;
+  margin: 5% 0px;
+  border-bottom: 1px solid lightgray;
+}
+.mini-vw .mini-flex {
+  display: flex;
+  text-align: left;
+  margin: 5% 5%;
+}
+.mini-vw .mini-flex div {
+  flex: 1;
+}
+
+.lastSection {
+  background-color: #e6767a;
+  text-align: center;
+  color: white;
+}
+.lastSection .head {
+  padding: 2% 0px;
+}
+.lastSection .head h1 {
+  color: #3e214f;
+}
+.lastSection .ls-div {
+  display: flex;
+  padding: 3% 5%;
+  text-align: left;
+}
+.lastSection .ls-div .list {
+  flex: 1;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.lastSection .ls-div .list .list1 {
+  background-color: rgba(62, 33, 79, 0.15);
+  padding: 1%;
+  border-radius: 10px;
+  display: inline-flex;
+  width: 100%;
+}
+.lastSection .ls-div .list .list1 .number {
+  background-color: white;
+  color: #3e214f;
+  padding: 0.9% 2%;
+  margin-left: 2%;
+  border-radius: 50%;
+}
+.lastSection .ls-div .list .list1 .desc {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.lastSection .ls-div .list .list2 {
+  display: inline-flex;
+}
+.lastSection .ls-div .list .list2 .number {
+  display: none;
+}
+.lastSection .ls-div .list .list2 .desc {
+  margin-top: 3%;
+  margin-left: 11%;
+  color: #3e214f;
+}
+.lastSection .ls-div .list .list3 {
+  display: inline-flex;
+}
+.lastSection .ls-div .list .list3 .number {
+  display: none;
+}
+.lastSection .ls-div .list .list3 .desc {
+  margin-top: 3%;
+  margin-left: 11%;
+  color: #3e214f;
+}
+.lastSection .ls-div .img {
+  flex: 1;
+  margin-left: 2%;
+}
+.lastSection .ls-div .img img {
+  border-radius: 10px;
+}/*# sourceMappingURL=home.css.map */

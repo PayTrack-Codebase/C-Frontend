@@ -1,0 +1,101 @@
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-direction: column;
+
+  .login_header {
+    display: flex;
+    justify-content: center;
+  }
+  .login_body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+
+  .forgot_password {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #e6767a;
+    text-align: center;
+  }
+
+ 
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    hr {
+      width: 179px;
+      border: 1px solid #d8d8d8;
+    }
+
+    p {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #8b8b8b;
+    }
+  }
+
+  .ouath {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .ouath_button {
+      display: flex;
+      height: 60px;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      align-items: center;
+      padding: 0px 24px;
+
+      div {
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      p {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #3e214f;
+      }
+    }
+  }
+
+  .error_card {
+    height: 52px;
+    background: #fceced;
+    border: 1.2px solid #ff4d4f;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 4.33%;
+
+    p {
+      font-family: "Plus Jakarta Sans";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      color: #ff4d4f;
+    }
+  }
+}

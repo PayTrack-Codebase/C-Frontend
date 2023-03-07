@@ -1,0 +1,87 @@
+.header {
+  padding: 1% 5%;
+  border-bottom: 0.5px solid lightgray;
+  background-color: #3e214f;
+}
+
+.header-section {
+  display: flex;
+}
+.header-section .logo-div {
+  margin-top: 6px;
+  flex: 1;
+}
+.header-section .nav-links {
+  flex: 4;
+  justify-content: flex-start;
+  margin-top: 10px;
+  display: flex;
+}
+.header-section .nav-links .link {
+  color: white;
+  text-decoration: none;
+  margin: 0px 15px;
+}
+.header-section .nav-links .pop-over {
+  display: none;
+  flex-direction: column;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: -50px;
+  margin-bottom: -65px;
+  margin-top: 5px;
+}
+.header-section .nav-links .pop-over .plink {
+  margin: 5px;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+  color: #3e214f;
+}
+.header-section .buttons {
+  flex: 1;
+}
+.header-section .buttons .btn {
+  width: 150px;
+  height: 50px;
+  background-color: #e6767a;
+  border-radius: 5px;
+  border: none;
+}
+.header-section .buttons .btn .link {
+  color: #3e214f;
+  text-decoration: none;
+}
+.header-section .buttons .btn-link {
+  color: white;
+  text-decoration: none;
+  margin: 0px 15px;
+}
+
+.login-header {
+  padding: 1% 5%;
+}
+.login-header .header-div {
+  float: right;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+.login-header p {
+  margin-right: 2%;
+}
+.login-header .btn {
+  width: 150px;
+  height: 50px;
+  background-color: #e6767a;
+  border-radius: 5px;
+  border: none;
+}
+.login-header .btn .link {
+  color: #3e214f;
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */

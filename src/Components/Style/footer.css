@@ -1,0 +1,52 @@
+.footer {
+  padding: 1% 5%;
+  border-bottom: 0.5px solid lightgray;
+  background-color: #3e214f;
+  color: white;
+}
+
+.footer-section h2 {
+  margin-top: 4%;
+}
+.footer-section .btn {
+  width: 150px;
+  height: 50px;
+  background-color: #e6767a;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1%;
+}
+.footer-section .btn .link {
+  color: #3e214f;
+  text-decoration: none;
+}
+.footer-section .logo-div {
+  margin-top: 4%;
+}
+.footer-section .nav-links-div {
+  display: flex;
+  margin-top: 2%;
+}
+.footer-section .nav-links-div .nav-links {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.footer-section .nav-links-div .nav-links .link {
+  text-decoration: none;
+  color: #bfb5c4;
+}
+.footer-section .footer-last {
+  display: flex;
+  margin-top: 3%;
+}
+.footer-section .footer-last div {
+  flex: 1;
+  display: flex;
+}
+.footer-section .footer-last div .link {
+  text-decoration: none;
+  color: #bfb5c4;
+  margin: 2.7% 10px;
+  font-size: small;
+}/*# sourceMappingURL=footer.css.map */

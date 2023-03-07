@@ -1,0 +1,39 @@
+.auth_footer {
+  background-color: #fff;
+  border-top: 0.5px solid #e5e5e5;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.auth_footer .footer_body {
+  display: flex;
+  align-items: center;
+  padding: 0px 100px;
+  height: 64px;
+  justify-content: space-between;
+}
+.auth_footer .footer_body .footer_links {
+  display: flex;
+  gap: 20px;
+}
+.auth_footer .footer_body .footer_links a {
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #434157;
+}
+.auth_footer .footer_body .copyright {
+  display: flex;
+  gap: 4px;
+}
+.auth_footer .footer_body .copyright p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #434157;
+}/*# sourceMappingURL=Footer.css.map */
