@@ -1,18 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Components/Header";
 import loanimg from "../assets/loanTrackingImg.svg";
 import loan1 from "../assets/loan1.svg";
 import loan2 from "../assets/loan2.svg";
 import loan3 from "../assets/loan3.svg";
-import subimg2 from "../assets/CC.svg";
 import "./Styles/home.css";
-import Footer from "../Components/Footer";
 
 const Loan = () => {
   return (
     <div>
-      <Header />
       <div className="intro-section">
         <div className="info-div">
           <h3 className="loan-head">LOAN TRACKING SYSTEMS</h3>
@@ -65,7 +61,7 @@ const Loan = () => {
           <img src={loan2} alt=""></img>
         </div>
       </div>
-      
+
       <div className="section2">
         <div className="image-div">
           <img src={loan3} alt=""></img>
@@ -81,7 +77,6 @@ const Loan = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

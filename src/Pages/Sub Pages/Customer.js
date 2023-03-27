@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../../Components/Header";
-import Footer from "../../Components/Footer";
 import "../Styles/subpage.css";
 import { useState, useEffect } from "react";
 
@@ -43,7 +41,6 @@ const Customer = () => {
   // };
   return (
     <div>
-      <Header />
       <div className="customer-content-flex">
         <div className="content-one">
           <h3>CONTACT US</h3>
@@ -121,7 +118,6 @@ const Customer = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

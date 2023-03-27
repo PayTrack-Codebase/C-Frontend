@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Components/Header";
 import qrimg from "../assets/Qrcode-img.png";
 import mini1 from "../assets/qr-mini1.svg";
 import mini2 from "../assets/qr-mini2.svg";
@@ -8,16 +7,13 @@ import mini3 from "../assets/qr-mini3.svg";
 import mini4 from "../assets/qr-mini4.svg";
 import qrImgOne from "../assets/qr-code-img.png";
 import loan2 from "../assets/loan2.svg";
-import loan3 from "../assets/loan3.svg";
 import line from "../assets/line.svg";
 import login from "../assets/Qrphone.png";
 import "./Styles/home.css";
-import Footer from "../Components/Footer";
 
 const Qr = () => {
   return (
     <div>
-      <Header />
       <div className="intro-section">
         <div className="info-div">
           <div className="withLine">
@@ -175,7 +171,6 @@ const Qr = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
