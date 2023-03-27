@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import instagram from "../assets/instagram.svg";
+import facebook from "../assets/facebook.svg";
+import twitter from "../assets/twitter.svg";
+import linkedin from "../assets/linkedin.svg";
 import "./Style/footer.css";
 const Footer = () => {
   return (
@@ -85,11 +89,11 @@ const Footer = () => {
               Products
             </Link>
           </div>
-          <div>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
-            <p>A</p>
+          <div className="socials">
+            <img src={instagram} alt="logo"></img>
+            <img src={facebook} alt="logo"></img>
+            <img src={twitter} alt="logo"></img>
+            <img src={linkedin} alt="logo"></img>
           </div>
         </div>
       </div>

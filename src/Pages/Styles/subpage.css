@@ -1,0 +1,117 @@
+.customer-content-flex {
+  display: flex;
+  margin: 3% 5%;
+}
+.customer-content-flex .content-one {
+  flex: 1.5;
+}
+.customer-content-flex .content-one h3 {
+  color: #e6767a;
+  font-size: 14px;
+  font-weight: bold;
+}
+.customer-content-flex .content-one h1 {
+  color: #3e214f;
+  font-size: 48px;
+  font-weight: bold;
+}
+.customer-content-flex .content-two {
+  flex: 1;
+  color: #3e214f;
+}
+.customer-content-flex .content-two p {
+  font-size: 14px;
+}
+.customer-content-flex .content-two .Hcontact {
+  color: #3e214f;
+  font-size: 18px;
+  font-weight: bold;
+}
+.customer-content-flex .content-two .contact-num-div {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+}
+.customer-content-flex .content-two .contact-num-div p {
+  flex: 1;
+}
+.customer-content-flex .content-two .contact-num-div .num {
+  font-weight: bold;
+  text-align: right;
+}
+.customer-content-flex .content-two .content-names {
+  display: flex;
+  margin: 6% 0%;
+}
+.customer-content-flex .content-two .content-names div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.customer-content-flex .content-two .content-names div label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3e214f;
+  margin-bottom: 5px;
+}
+.customer-content-flex .content-two .content-names div input {
+  width: 90%;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 10px;
+}
+.customer-content-flex .content-two .content-mail,
+.customer-content-flex .content-two .content-phone,
+.customer-content-flex .content-two .content-how,
+.customer-content-flex .content-two .content-text {
+  display: flex;
+  flex-direction: column;
+  margin: 6% 0%;
+}
+.customer-content-flex .content-two .content-mail label,
+.customer-content-flex .content-two .content-phone label,
+.customer-content-flex .content-two .content-how label,
+.customer-content-flex .content-two .content-text label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3e214f;
+  margin-bottom: 5px;
+}
+.customer-content-flex .content-two .content-mail input,
+.customer-content-flex .content-two .content-phone input,
+.customer-content-flex .content-two .content-how input,
+.customer-content-flex .content-two .content-text input {
+  width: 95%;
+  height: 50px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline: none;
+  padding: 0px 10px;
+}
+.customer-content-flex .content-two .content-mail .text,
+.customer-content-flex .content-two .content-phone .text,
+.customer-content-flex .content-two .content-how .text,
+.customer-content-flex .content-two .content-text .text {
+  width: 95%;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  padding: 0px 10px;
+}
+.customer-content-flex .content-two .checkbox {
+  margin: 0px;
+}
+.customer-content-flex .content-two .checkbox-text {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.customer-content-flex .content-two .btn {
+  width: 100%;
+  margin-top: 3%;
+}
+.customer-content-flex .content-two .belowBtn {
+  font-size: 12px;
+  text-align: center;
+}/*# sourceMappingURL=subpage.css.map */

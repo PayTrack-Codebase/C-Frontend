@@ -1,8 +1,44 @@
 $primaryColor: #3e214f;
 $secondaryColor: #e6767a;
 
+.withLine {
+  display: flex;
+  margin-bottom: 20px;
+
+  img {
+    margin-right: 10px;
+    flex: 1;
+  }
+  h3 {
+    flex: 7;
+    font-weight: bold;
+    color: $secondaryColor;
+  }
+}
+.withLine-QR {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0% 5%;
+  justify-content: center;
+  width: 25%;
+  margin: 0% 37%;
+
+  img {
+    margin-right: 10px;
+    flex: 1;
+    float: right;
+    text-align: right;
+  }
+  h3 {
+    flex: 10;
+    font-weight: bold;
+    color: $secondaryColor;
+  }
+}
+
 .intro-section {
-  padding: 3% 5%;
+  padding: 5% 5%;
   display: flex;
   background-color: $primaryColor;
   color: white;
@@ -10,10 +46,15 @@ $secondaryColor: #e6767a;
   .info-div {
     flex: 1.5;
 
+    .loan-head {
+      color: $secondaryColor;
+    }
+
     h1 {
       font-size: 70px;
       margin-bottom: 0px;
       margin-top: 2%;
+      font-weight: bold;
 
       span {
         color: $secondaryColor;
@@ -22,6 +63,8 @@ $secondaryColor: #e6767a;
 
     p {
       width: 80%;
+      color: #d8d3dc;
+      margin-top: 1%;
     }
 
     button {
@@ -50,7 +93,18 @@ $secondaryColor: #e6767a;
     }
   }
 }
+.image-div-loan {
+  margin-top: 2%;
+  margin-bottom: -4.2%;
+  margin-right: -5%;
+  flex: 1;
+  text-align: center;
 
+  img {
+    width: 697px;
+    margin-bottom: -20px;
+  }
+}
 .section2 {
   display: flex;
   padding: 3% 5%;
@@ -58,14 +112,16 @@ $secondaryColor: #e6767a;
 
   .image-div {
     flex: 1;
-    border-bottom: 0.5px solid lightgray;
+    // border-bottom: 0.5px solid lightgray;
   }
-
   .section2-content {
     flex: 1;
-    border-bottom: 0.5px solid lightgray;
+    // border-bottom: 0.5px solid lightgray;
     padding-bottom: 4%;
 
+    .no-border {
+      border: none;
+    }
     h2 {
       font-size: 32px;
     }
@@ -73,7 +129,14 @@ $secondaryColor: #e6767a;
     p {
       line-height: 35px;
     }
-
+    .intro1 {
+      margin-top: 10%;
+      font-size: 50px;
+      margin-bottom: 1%;
+    }
+    .intro2 {
+      margin-top: 0px;
+    }
     button {
       width: 150px;
       height: 45px;
@@ -91,7 +154,15 @@ $secondaryColor: #e6767a;
     }
   }
 }
-
+.section2-heading {
+  margin-top: 5%;
+  .head {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
 .section3 {
   display: flex;
   padding: 3% 5%;
@@ -111,6 +182,14 @@ $secondaryColor: #e6767a;
 
     p {
       line-height: 35px;
+    }
+    .intro1 {
+      margin-top: 10%;
+      font-size: 50px;
+      margin-bottom: 1%;
+    }
+    .intro2 {
+      margin-top: 0px;
     }
 
     li {
@@ -154,6 +233,116 @@ $secondaryColor: #e6767a;
     }
     h4 {
       margin: 0px;
+    }
+  }
+  .section4-h2{
+    font-size: 32px;
+    color: white;
+  }
+}
+
+.mini-vw {
+  text-align: center;
+  margin: 4% 0px;
+  
+.mini-w-h{
+  font-size: 36px;
+  font-weight: bold;
+}
+.mini-w-p{
+  margin-top: 10px;
+  padding: 0px 33%;
+}
+  .mini-flex {
+    display: flex;
+    text-align: left;
+    margin: 5% 5%;
+
+    img{
+      background-color: #D8D3DC;
+      padding: 3%;
+      border-radius: 50%;
+      width: 16%;
+    }
+
+    h3{
+      font-size: 18px;
+      font-weight: bold;
+      margin: 4% 0%;
+    }
+
+    div {
+      flex: 1;
+    }
+  }
+}
+.lastSection {
+  text-align: center;
+  color: $primaryColor;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2%;
+  margin: 5% 5%;
+
+  .head {
+    padding: 0% 0px;
+    h1 {
+      color: $primaryColor;
+      font-size: 36px;
+    }
+    h3 {
+      color: #e6767a;
+    }
+  }
+  .ls-div {
+    display: flex;
+    text-align: left;
+
+    .list {
+      flex: 1;
+      margin-right: 2%;
+      display: flex;
+      flex-direction: column;
+
+      .btn {
+        width: 190px;
+        height: 50px;
+      }
+      .list1 {
+        padding: 1%;
+        border-radius: 10px;
+        display: inline-flex;
+        width: 100%;
+
+        .number {
+          background-color: $primaryColor;
+          color: white;
+          padding: 1%;
+          margin-left: 2%;
+          border-radius: 50%;
+          height: 20px;
+          width: 20px;
+          text-align: center;
+        }
+        .desc {
+          margin-top: 3%;
+          margin-left: 3%;
+        }
+        .desc-head {
+          margin-top: 3%;
+          margin-left: 3%;
+          font-weight: bold;
+          color: #3e214f;
+        }
+      }
+    }
+    .img {
+      flex: 1;
+      margin-left: 2%;
+
+      img {
+        border-radius: 10px;
+        float: right;
+      }
     }
   }
 }

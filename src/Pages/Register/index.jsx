@@ -9,7 +9,7 @@ import AddService from "./SubPages/AddService";
 import UploadDocuments from "./SubPages/Upload";
 
 const Register = () => {
-  const [progress, setProgress] = useState(2);
+  const [progress, setProgress] = useState(0);
   const [heading, setHeading] = useState("Create My Account");
 
   useEffect(() => {

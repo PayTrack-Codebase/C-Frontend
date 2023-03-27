@@ -1,5 +1,40 @@
+.withLine {
+  display: flex;
+  margin-bottom: 20px;
+}
+.withLine img {
+  margin-right: 10px;
+  flex: 1;
+}
+.withLine h3 {
+  flex: 7;
+  font-weight: bold;
+  color: #e6767a;
+}
+
+.withLine-QR {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0% 5%;
+  justify-content: center;
+  width: 25%;
+  margin: 0% 37%;
+}
+.withLine-QR img {
+  margin-right: 10px;
+  flex: 1;
+  float: right;
+  text-align: right;
+}
+.withLine-QR h3 {
+  flex: 10;
+  font-weight: bold;
+  color: #e6767a;
+}
+
 .intro-section {
-  padding: 3% 5%;
+  padding: 5% 5%;
   display: flex;
   background-color: #3e214f;
   color: white;
@@ -7,16 +42,22 @@
 .intro-section .info-div {
   flex: 1.5;
 }
+.intro-section .info-div .loan-head {
+  color: #e6767a;
+}
 .intro-section .info-div h1 {
   font-size: 70px;
   margin-bottom: 0px;
   margin-top: 2%;
+  font-weight: bold;
 }
 .intro-section .info-div h1 span {
   color: #e6767a;
 }
 .intro-section .info-div p {
   width: 80%;
+  color: #d8d3dc;
+  margin-top: 1%;
 }
 .intro-section .info-div button {
   width: 150px;
@@ -41,6 +82,18 @@
   width: 660px;
 }
 
+.image-div-loan {
+  margin-top: 2%;
+  margin-bottom: -4.2%;
+  margin-right: -5%;
+  flex: 1;
+  text-align: center;
+}
+.image-div-loan img {
+  width: 697px;
+  margin-bottom: -20px;
+}
+
 .section2 {
   display: flex;
   padding: 3% 5%;
@@ -48,18 +101,27 @@
 }
 .section2 .image-div {
   flex: 1;
-  border-bottom: 0.5px solid lightgray;
 }
 .section2 .section2-content {
   flex: 1;
-  border-bottom: 0.5px solid lightgray;
   padding-bottom: 4%;
+}
+.section2 .section2-content .no-border {
+  border: none;
 }
 .section2 .section2-content h2 {
   font-size: 32px;
 }
 .section2 .section2-content p {
   line-height: 35px;
+}
+.section2 .section2-content .intro1 {
+  margin-top: 10%;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.section2 .section2-content .intro2 {
+  margin-top: 0px;
 }
 .section2 .section2-content button {
   width: 150px;
@@ -74,6 +136,16 @@
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
+}
+
+.section2-heading {
+  margin-top: 5%;
+}
+.section2-heading .head {
+  text-align: center;
+}
+.section2-heading h2 {
+  text-align: center;
 }
 
 .section3 {
@@ -93,6 +165,14 @@
 }
 .section3 .section3-content p {
   line-height: 35px;
+}
+.section3 .section3-content .intro1 {
+  margin-top: 10%;
+  font-size: 50px;
+  margin-bottom: 1%;
+}
+.section3 .section3-content .intro2 {
+  margin-top: 0px;
 }
 .section3 .section3-content li {
   margin: 2% 0px;
@@ -132,4 +212,106 @@
 }
 .section4 .section4-child h4 {
   margin: 0px;
+}
+.section4 .section4-h2 {
+  font-size: 32px;
+  color: white;
+}
+
+.mini-vw {
+  text-align: center;
+  margin: 4% 0px;
+}
+.mini-vw .mini-w-h {
+  font-size: 36px;
+  font-weight: bold;
+}
+.mini-vw .mini-w-p {
+  margin-top: 10px;
+  padding: 0px 33%;
+}
+.mini-vw .mini-flex {
+  display: flex;
+  text-align: left;
+  margin: 5% 5%;
+}
+.mini-vw .mini-flex img {
+  background-color: #D8D3DC;
+  padding: 3%;
+  border-radius: 50%;
+  width: 16%;
+}
+.mini-vw .mini-flex h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4% 0%;
+}
+.mini-vw .mini-flex div {
+  flex: 1;
+}
+
+.lastSection {
+  text-align: center;
+  color: #3e214f;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2%;
+  margin: 5% 5%;
+}
+.lastSection .head {
+  padding: 0% 0px;
+}
+.lastSection .head h1 {
+  color: #3e214f;
+  font-size: 36px;
+}
+.lastSection .head h3 {
+  color: #e6767a;
+}
+.lastSection .ls-div {
+  display: flex;
+  text-align: left;
+}
+.lastSection .ls-div .list {
+  flex: 1;
+  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.lastSection .ls-div .list .btn {
+  width: 190px;
+  height: 50px;
+}
+.lastSection .ls-div .list .list1 {
+  padding: 1%;
+  border-radius: 10px;
+  display: inline-flex;
+  width: 100%;
+}
+.lastSection .ls-div .list .list1 .number {
+  background-color: #3e214f;
+  color: white;
+  padding: 1%;
+  margin-left: 2%;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+}
+.lastSection .ls-div .list .list1 .desc {
+  margin-top: 3%;
+  margin-left: 3%;
+}
+.lastSection .ls-div .list .list1 .desc-head {
+  margin-top: 3%;
+  margin-left: 3%;
+  font-weight: bold;
+  color: #3e214f;
+}
+.lastSection .ls-div .img {
+  flex: 1;
+  margin-left: 2%;
+}
+.lastSection .ls-div .img img {
+  border-radius: 10px;
+  float: right;
 }/*# sourceMappingURL=home.css.map */

@@ -15,11 +15,41 @@
   flex: 4;
   justify-content: flex-start;
   margin-top: 10px;
+  display: flex;
 }
 .header-section .nav-links .link {
   color: white;
   text-decoration: none;
   margin: 0px 15px;
+  font-weight: bold;
+}
+.header-section .nav-links .pop-over {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: -50px;
+  margin-bottom: -65px;
+  margin-top: 10px;
+  position: absolute;
+}
+.header-section .nav-links .pop-over .plink {
+  margin: 5px;
+  text-decoration: none;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+  color: #3e214f;
+}
+.header-section .nav-links .pop-over .plink2 {
+  margin: 5px;
+  text-decoration: none;
+  text-align: left;
+  color: #3e214f;
 }
 .header-section .buttons {
   flex: 1;
