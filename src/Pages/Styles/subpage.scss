@@ -1,0 +1,123 @@
+.customer-content-flex {
+  display: flex;
+  margin: 3% 5%;
+
+  .content-one {
+    flex: 1.5;
+
+    h3 {
+      color: #e6767a;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    h1 {
+      color: #3e214f;
+      font-size: 48px;
+      font-weight: bold;
+    }
+  }
+
+  .content-two {
+    flex: 1;
+    color: #3e214f;
+
+    p {
+      font-size: 14px;
+    }
+
+    .Hcontact {
+      color: #3e214f;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .contact-num-div {
+      border-bottom: 1px solid lightgray;
+      display: flex;
+
+      p {
+        flex: 1;
+      }
+      .num {
+        font-weight: bold;
+        text-align: right;
+      }
+    }
+    .content-names {
+      display: flex;
+      margin: 6% 0%;
+
+      div {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+
+        label {
+          font-size: 14px;
+          font-weight: bold;
+          color: #3e214f;
+          margin-bottom: 5px;
+        }
+
+        input {
+          width: 90%;
+          height: 50px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          outline: none;
+          padding: 0px 10px;
+        }
+      }
+    }
+    .content-mail,
+    .content-phone,
+    .content-how,
+    .content-text {
+      display: flex;
+      flex-direction: column;
+      margin: 6% 0%;
+
+      label {
+        font-size: 14px;
+        font-weight: bold;
+        color: #3e214f;
+        margin-bottom: 5px;
+      }
+
+      input {
+        width: 95%;
+        height: 50px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        outline: none;
+        padding: 0px 10px;
+      }
+
+      .text {
+        width: 95%;
+        height: 70px;
+        border-radius: 5px;
+        border: 1px solid lightgray;
+        outline: none;
+        padding: 0px 10px;
+      }
+    }
+
+    .checkbox{
+        margin: 0px;
+
+    }
+    .checkbox-text {
+      font-size: 12px;
+      margin-left: 5px;
+    
+    }
+    .btn{
+        width: 100%;
+        margin-top: 3%;
+    }
+    .belowBtn{
+        font-size: 12px;
+        text-align: center;
+    }
+  }
+}

@@ -2,16 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import "./Style/header.css";
-import { useState } from "react";
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from "@chakra-ui/react";
 
 const Header = () => {
-  const [clicked, setclicked] = useState(false);
-
-  const handleclick = () => {
-    document.getElementById("pop-over").style.display = "flex";
-    setclicked(true);
-    console.log("test");
-  };
   return (
     <div className="header">
       <div className="header-section">
@@ -22,39 +24,41 @@ const Header = () => {
         </div>
 
         <div className="nav-links">
-          <Link className="link">
-            <Link className="link" clicked={clicked} onClick={handleclick}>
-              Solutions
-            </Link>
-            <div className="pop-over" id="pop-over">
-              <Link to="/loan" className="plink">
-                Loan Tracking Sytem
-              </Link>
-              <Link to="/qr" className="plink">
+          <Link className="link">Products</Link>
+          <Menu className="link">
+            <MenuButton width="fit-content" height="25px" className="link">Solutions</MenuButton>
+            <MenuList className="pop-over">
+              <MenuItem>
                 {" "}
-                QR Code Payment System
-              </Link>
-            </div>
-          </Link>
+                <Link to="/loan" className="plink">
+                  Loan Tracking Sytem
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                {" "}
+                <Link to="/qr" className="plink2">
+                  {" "}
+                  QR Code Payment System
+                </Link>
+              </MenuItem>
+            </MenuList>
+          </Menu>
 
-          <Link to="pricing" className="link">
-            Pricing
+          <Link to="/" className="link">
+            Company
           </Link>
-          <Link to="customers" className="link">
-            Customers
-          </Link>
-          <Link to="about" className="link">
-            About us
+          <Link to="/" className="link">
+            Resources
           </Link>
         </div>
 
         <div className="buttons">
-          <Link to="/auth/login" className="btn-link">
+          {/* <Link to="/auth/login" className="btn-link">
             Login
-          </Link>
+          </Link> */}
           <button className="btn">
-            <Link to="/auth/register" className="link">
-              Get Started
+            <Link to="/customer" className="link">
+              Contact Us
             </Link>
           </button>
         </div>

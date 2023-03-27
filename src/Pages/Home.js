@@ -2,10 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import introimg from "../assets/intro-image.svg";
+import intro from "../assets/intro.svg";
+import line from "../assets/line.svg";
+import qrshop from "../assets/qrShop.svg";
 import subimg1 from "../assets/fastCom.svg";
 import subimg2 from "../assets/CC.svg";
 import "./Styles/home.css";
 import Footer from "../Components/Footer";
+import { Divider, Stack } from "@chakra-ui/react";
 
 const Home = () => {
   return (
@@ -23,13 +27,9 @@ const Home = () => {
           </p>
           <div>
             <button>
-              <Link className="link">See how it works</Link>
-            </button>
-            <button>
               <Link className="link">Get Started</Link>
             </button>
           </div>
-          <h4>TRUSTED AND LOVED BY TOP FINANCIAL COMPANIES</h4>
         </div>
         <div className="image-div">
           <img src={introimg} alt=""></img>
@@ -38,10 +38,13 @@ const Home = () => {
 
       <div className="section2">
         <div className="image-div">
-          <img src={introimg} alt=""></img>
+          <img src={intro} alt=""></img>
         </div>
         <div className="section2-content">
-          <h4>LOAN TRACKING SYSTEMS</h4>
+          <div className="withLine">
+            <img src={line} alt=""></img>
+            <h3>LOAN TRACKING SYSTEMS</h3>
+          </div>
           <h2>Get control and visibility over every loan requested</h2>
           <p>
             Our loan tracking system automates the loan management process and
@@ -53,7 +56,7 @@ const Home = () => {
           </p>
           <button className="btn">
             <Link to="#" className="link">
-              View More
+              Learn More
             </Link>
           </button>
         </div>
@@ -61,7 +64,10 @@ const Home = () => {
 
       <div className="section3">
         <div className="section3-content">
-          <h4>QR CODE PAYMENT SYSTEMS</h4>
+          <div className="withLine">
+            <img src={line} alt=""></img>
+            <h3>QR CODE PAYMENT SYSTEMS</h3>
+          </div>
           <h2>Make payments easy using our QR apps</h2>
           <p>
             Our QR Code payment system create an avenue for easy, fast and
@@ -76,17 +82,17 @@ const Home = () => {
           </ul>
           <button className="btn">
             <Link to="#" className="link">
-              View More
+              Learn More
             </Link>
           </button>
         </div>
         <div className="image-div">
-          <img src={introimg} alt=""></img>
+          <img src={qrshop} alt=""></img>
         </div>
       </div>
 
       <div className="section4">
-        <h2>Here's why our customers love us</h2>
+        <h2 className="section4-h2">Here's why our customers love us</h2>
         <p>We handle financial activities in a very easy and simple manner.</p>
         <div className="section4-child">
           <div>

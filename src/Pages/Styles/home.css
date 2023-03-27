@@ -1,5 +1,40 @@
+.withLine {
+  display: flex;
+  margin-bottom: 20px;
+}
+.withLine img {
+  margin-right: 10px;
+  flex: 1;
+}
+.withLine h3 {
+  flex: 7;
+  font-weight: bold;
+  color: #e6767a;
+}
+
+.withLine-QR {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 0% 5%;
+  justify-content: center;
+  width: 25%;
+  margin: 0% 37%;
+}
+.withLine-QR img {
+  margin-right: 10px;
+  flex: 1;
+  float: right;
+  text-align: right;
+}
+.withLine-QR h3 {
+  flex: 10;
+  font-weight: bold;
+  color: #e6767a;
+}
+
 .intro-section {
-  padding: 3% 5%;
+  padding: 5% 5%;
   display: flex;
   background-color: #3e214f;
   color: white;
@@ -7,16 +42,22 @@
 .intro-section .info-div {
   flex: 1.5;
 }
+.intro-section .info-div .loan-head {
+  color: #e6767a;
+}
 .intro-section .info-div h1 {
   font-size: 70px;
   margin-bottom: 0px;
   margin-top: 2%;
+  font-weight: bold;
 }
 .intro-section .info-div h1 span {
   color: #e6767a;
 }
 .intro-section .info-div p {
   width: 80%;
+  color: #d8d3dc;
+  margin-top: 1%;
 }
 .intro-section .info-div button {
   width: 150px;
@@ -43,7 +84,7 @@
 
 .image-div-loan {
   margin-top: 2%;
-  margin-bottom: -2.2%;
+  margin-bottom: -4.2%;
   margin-right: -5%;
   flex: 1;
   text-align: center;
@@ -172,35 +213,62 @@
 .section4 .section4-child h4 {
   margin: 0px;
 }
+.section4 .section4-h2 {
+  font-size: 32px;
+  color: white;
+}
 
 .mini-vw {
   text-align: center;
-  margin: 5% 0px;
-  border-bottom: 1px solid lightgray;
+  margin: 4% 0px;
+}
+.mini-vw .mini-w-h {
+  font-size: 36px;
+  font-weight: bold;
+}
+.mini-vw .mini-w-p {
+  margin-top: 10px;
+  padding: 0px 33%;
 }
 .mini-vw .mini-flex {
   display: flex;
   text-align: left;
   margin: 5% 5%;
 }
+.mini-vw .mini-flex img {
+  background-color: #D8D3DC;
+  padding: 3%;
+  border-radius: 50%;
+  width: 16%;
+}
+.mini-vw .mini-flex h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4% 0%;
+}
 .mini-vw .mini-flex div {
   flex: 1;
 }
 
 .lastSection {
-  background-color: #e6767a;
   text-align: center;
-  color: white;
+  color: #3e214f;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2%;
+  margin: 5% 5%;
 }
 .lastSection .head {
-  padding: 2% 0px;
+  padding: 0% 0px;
 }
 .lastSection .head h1 {
   color: #3e214f;
+  font-size: 36px;
+}
+.lastSection .head h3 {
+  color: #e6767a;
 }
 .lastSection .ls-div {
   display: flex;
-  padding: 3% 5%;
   text-align: left;
 }
 .lastSection .ls-div .list {
@@ -209,44 +277,34 @@
   display: flex;
   flex-direction: column;
 }
+.lastSection .ls-div .list .btn {
+  width: 190px;
+  height: 50px;
+}
 .lastSection .ls-div .list .list1 {
-  background-color: rgba(62, 33, 79, 0.15);
   padding: 1%;
   border-radius: 10px;
   display: inline-flex;
   width: 100%;
 }
 .lastSection .ls-div .list .list1 .number {
-  background-color: white;
-  color: #3e214f;
-  padding: 0.9% 2%;
+  background-color: #3e214f;
+  color: white;
+  padding: 1%;
   margin-left: 2%;
   border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
 }
 .lastSection .ls-div .list .list1 .desc {
   margin-top: 3%;
   margin-left: 3%;
 }
-.lastSection .ls-div .list .list2 {
-  display: inline-flex;
-}
-.lastSection .ls-div .list .list2 .number {
-  display: none;
-}
-.lastSection .ls-div .list .list2 .desc {
+.lastSection .ls-div .list .list1 .desc-head {
   margin-top: 3%;
-  margin-left: 11%;
-  color: #3e214f;
-}
-.lastSection .ls-div .list .list3 {
-  display: inline-flex;
-}
-.lastSection .ls-div .list .list3 .number {
-  display: none;
-}
-.lastSection .ls-div .list .list3 .desc {
-  margin-top: 3%;
-  margin-left: 11%;
+  margin-left: 3%;
+  font-weight: bold;
   color: #3e214f;
 }
 .lastSection .ls-div .img {
@@ -255,4 +313,5 @@
 }
 .lastSection .ls-div .img img {
   border-radius: 10px;
+  float: right;
 }/*# sourceMappingURL=home.css.map */

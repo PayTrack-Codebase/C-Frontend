@@ -15,7 +15,7 @@ const Loan = () => {
       <Header />
       <div className="intro-section">
         <div className="info-div">
-          <h3>LOAN TRACKING SYSTEMS</h3>
+          <h3 className="loan-head">LOAN TRACKING SYSTEMS</h3>
           <h1>Loan tracking system for financial industries.</h1>
           <p>
             Provide a secure and easy way to pay for goods and services using QR
@@ -65,6 +65,7 @@ const Loan = () => {
           <img src={loan2} alt=""></img>
         </div>
       </div>
+      
       <div className="section2">
         <div className="image-div">
           <img src={loan3} alt=""></img>

@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
-import qrimg from "../assets/qrcode-img.svg";
-import loan1 from "../assets/loan1.svg";
-import loan2 from "../assets/loan2.svg";
+import qrimg from "../assets/Qrcode-img.png";
 import mini1 from "../assets/qr-mini1.svg";
 import mini2 from "../assets/qr-mini2.svg";
 import mini3 from "../assets/qr-mini3.svg";
 import mini4 from "../assets/qr-mini4.svg";
-import login from "../assets/login.svg";
-import subimg2 from "../assets/CC.svg";
+import qrImgOne from "../assets/qr-code-img.png";
+import loan2 from "../assets/loan2.svg";
+import loan3 from "../assets/loan3.svg";
+import line from "../assets/line.svg";
+import login from "../assets/Qrphone.png";
 import "./Styles/home.css";
 import Footer from "../Components/Footer";
 
@@ -19,7 +20,10 @@ const Qr = () => {
       <Header />
       <div className="intro-section">
         <div className="info-div">
-          <h3>QR PAYMENT SYSTEM</h3>
+          <div className="withLine">
+            <img src={line} alt=""></img>
+            <h3 className="loan-head">QR PAYMENT SYSTEM</h3>
+          </div>
           <h1>QR Code Payment: Quick, secure and convienient.</h1>
           <p>
             Provide a secure and easy way to pay for goods and services using QR
@@ -36,8 +40,15 @@ const Qr = () => {
       </div>
 
       <div className="mini-vw">
-        <h3>QR PAYMENT SYSTEM</h3>
-        <h1>Payments made easy the TrackPay way.</h1>
+        <div className="withLine-QR">
+          <img src={line} alt=""></img>
+          <h3 className="loan-head">QR PAYMENT SYSTEM</h3>
+        </div>
+        <h1 className="mini-w-h">Payments made easy the TrackPay way.</h1>
+        <p className="mini-w-p">
+          Our QR payment system handles works perfectly with every businesses in
+          Nigeria.
+        </p>
         <div className="mini-flex">
           <div>
             <img src={mini1} alt="icon"></img>
@@ -74,65 +85,93 @@ const Qr = () => {
         </div>
       </div>
 
-      <div className="section2-heading">
-        <p className="head">BENEFITS</p>
-        <h2>QR payment made easy for every business.</h2>
-
-        <div className="section2">
-          <div className="image-div">
-            <img src={loan1} alt=""></img>
+      <div className="benefits-QR">
+        <div className="section2-heading">
+          <div className="withLine-QR">
+            <img src={line} alt=""></img>
+            <h3 className="loan-head">BENEFITS</h3>
           </div>
-          <div className="section2-content">
+          <h2 className="mini-w-h">
+            Loan Tracking built to be evolutionary and secured
+          </h2>
+
+          <div className="section2">
+            <div className="image-div">
+              <img src={qrImgOne} alt=""></img>
+            </div>
+            <div className="section2-content">
+              <h4 className="intro1">
+                Transactions can be made easily using your unique QR code.
+              </h4>
+              <p className="intro2">
+                The ability to halt invalid transactions before they are made is
+                a very important tool for lenders to ensure that loans requested
+                are used for the intended purpose.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="section3">
+          <div className="section3-content">
             <h4 className="intro1">
-              Customers can easily make transactions to your account using our
-              system.
+            Manage your payments easily in one place.
             </h4>
             <p className="intro2">
-              Our loan tracking system automates the loan management process and
-              provides real-time updates about the status of loans.
+              Collabrating with banks would be a very helpful way for startups
+              to access the funding they need to launch and grow their
+              businesses.
             </p>
           </div>
-        </div>
-      </div>
-
-      <div className="section3">
-        <div className="section3-content">
-          <h4 className="intro1">
-            Easy setup required, affordable plans for the service.
-          </h4>
-          <p className="intro2">
-            Our loan tracking system automates the loan management process and
-            provides real-time updates about the status of loans.
-          </p>
-        </div>
-        <div className="image-div">
-          <img src={loan2} alt=""></img>
+          <div className="image-div">
+            <img src={loan2} alt=""></img>
+          </div>
         </div>
       </div>
 
       <div className="lastSection">
-        <div className="head">
-          <h3>HOW DOES IT WORK</h3>
-          <h1>Four steps to QR payment systems</h1>
-        </div>
-
         <div className="ls-div">
           <div className="list">
+            <div className="head">
+              <h3>How it works.</h3>
+              <h1>Start accepting payments in less than 10 mins.</h1>
+            </div>
             <div className="list1">
               <p className="number">1</p>
-              <p className="desc">Create an account.</p>
+              <div>
+                <p className="desc-head">Create an account.</p>
+                <p className="desc">
+                  Sign up for an account with your name, email, phone number and
+                  business details.
+                </p>
+              </div>
             </div>
-            <div className="list2">
+
+            <div className="list1">
               <p className="number">2</p>
-              <p className="desc">Set up the QR payment for your business.</p>
+              <div>
+                <p className="desc-head">Setup QR payment codes.</p>
+                <p className="desc">
+                  Create your unique QR payment codes for products, donations
+                  and subscriptions to accept payments from anyone.
+                </p>
+              </div>
             </div>
-            <div className="list3">
+
+            <div className="list1">
               <p className="number">3</p>
-              <p className="desc">Start using the service.</p>
+              <div>
+                <p className="desc-head">Accept payments.</p>
+                <p className="desc">
+                  Share your QR payment codes with your customers via social
+                  networks and more to start accepting payments.
+                </p>
+              </div>
             </div>
+            <button className="btn">Get Started</button>
           </div>
           <div className="img">
-            <img src={login}></img>
+            <img src={login} alt="pics"></img>
           </div>
         </div>
       </div>
