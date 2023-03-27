@@ -94,26 +94,3 @@
   color: #3e214f;
   text-decoration: none;
 }/*# sourceMappingURL=header.css.map */
-.login-header {
-  padding: 1% 5%;
-}
-.login-header .header-div {
-  float: right;
-  display: flex;
-  width: 100%;
-  justify-content: end;
-}
-.login-header p {
-  margin-right: 2%;
-}
-.login-header .btn {
-  width: 150px;
-  height: 50px;
-  background-color: #e6767a;
-  border-radius: 5px;
-  border: none;
-}
-.login-header .btn .link {
-  color: #3e214f;
-  text-decoration: none;
-}/*# sourceMappingURL=header.css.map */
