@@ -93,7 +93,7 @@ const Home = () => {
 
       <div className="section4">
         <h2 className="section4-h2">Here's why our customers love us</h2>
-        <p>We handle financial activities in a very easy and simple manner.</p>
+        <p className="section4-p">We handle financial activities in a very easy and simple manner.</p>
         <div className="section4-child">
           <div>
             <img src={subimg1} alt=""></img>

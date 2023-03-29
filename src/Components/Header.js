@@ -53,9 +53,6 @@ const Header = () => {
         </div>
 
         <div className="buttons">
-          {/* <Link to="/auth/login" className="btn-link">
-            Login
-          </Link> */}
           <button className="btn">
             <Link to="/customer" className="link">
               Contact Us
