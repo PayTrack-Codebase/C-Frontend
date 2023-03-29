@@ -54,7 +54,7 @@ const Header = () => {
 
         <div className="buttons">
           <button className="btn">
-            <Link to="/customer" className="link">
+            <Link to="/contact" className="link">
               Contact Us
             </Link>
           </button>
