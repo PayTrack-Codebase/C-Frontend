@@ -1,13 +1,18 @@
-import { Flex, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import { Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import { Teams } from "../data";
 
 const Team = () => {
   return (
     <Flex
-      //   h="849px"
       bgColor="#E6767A"
-      p="72px 100px"
+      p={{
+        base: "72px 16px",
+        sm: "40px",
+        md: "70px 50px",
+        lg: "60px 68px",
+        xl: "100px 88px",
+      }}
       justifyContent="center"
       flexDirection="column"
       gap="30px"
@@ -35,7 +40,7 @@ const Team = () => {
       </Flex>
 
       <Flex>
-        <Flex flexWrap="wrap" gap="30px" justifyContent="center">
+        <Flex flexWrap="wrap" justifyContent="center" gap="20px">
           {Teams.map((ele, index) => {
             return (
               <Flex
@@ -44,7 +49,7 @@ const Team = () => {
                 alignItems="center"
                 justifyContent="center"
                 key={index}
-                width="300px"
+                width={{base:"300px", sm: "250px", lg: "270px", xl: "300px" }}
               >
                 <Image src={ele.image} alt="" />
                 <Flex flexDirection="column" textAlign="center" gap="8px">
