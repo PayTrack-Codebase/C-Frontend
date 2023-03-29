@@ -215,7 +215,13 @@
 }
 .section4 .section4-h2 {
   font-size: 32px;
+  color: #3e214f;
+  font-weight: 600;
+}
+.section4 .section4-p {
+  font-size: 14px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .mini-vw {
@@ -236,7 +242,7 @@
   margin: 5% 5%;
 }
 .mini-vw .mini-flex img {
-  background-color: #D8D3DC;
+  background-color: #d8d3dc;
   padding: 3%;
   border-radius: 50%;
   width: 16%;

@@ -1,6 +1,5 @@
 .header {
   padding: 1% 5%;
-  border-bottom: 0.5px solid lightgray;
   background-color: #3e214f;
 }
 
@@ -93,4 +92,21 @@
 .login-header .btn .link {
   color: #3e214f;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    border-bottom: none;
+    margin-bottom: -5px;
+    padding-top: 10px;
+  }
+  .header-section {
+    display: flex;
+  }
+  .header-section .nav-links {
+    display: none;
+  }
+  .header-section .buttons {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */

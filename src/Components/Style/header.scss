@@ -4,7 +4,7 @@ $secondaryColor: #e6767a;
 
 .header {
   padding: 1% 5%;
-  border-bottom: 0.5px solid lightgray;
+  // border-bottom: 0.5px solid lightgray;
   background-color: $primaryColor;
 }
 
@@ -107,4 +107,54 @@ $secondaryColor: #e6767a;
       text-decoration: none;
     }
   }
+}
+
+//responsive design for mobile devices
+
+@media only screen and (max-width: 600px) {
+  .header {
+    border-bottom: none;
+    margin-bottom: -5px;
+    padding-top: 10px;
+  }
+
+  .header-section {
+    display: flex;
+
+    .nav-links {
+      display: none;
+    }
+
+    .buttons {
+      display: none;
+    }
+  }
+
+  // .login-header {
+  //   padding: 1% 5%;
+
+  //   .header-div {
+  //     float: right;
+  //     display: flex;
+  //     width: 100%;
+  //     justify-content: end;
+  //   }
+
+  //   p {
+  //     margin-right: 2%;
+  //   }
+
+  //   .btn {
+  //     width: 150px;
+  //     height: 50px;
+  //     background-color: $secondaryColor;
+  //     border-radius: 5px;
+  //     border: none;
+
+  //     .link {
+  //       color: $primaryColor;
+  //       text-decoration: none;
+  //     }
+  //   }
+  // }git
 }
