@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Components/Header";
 import loanimg from "../assets/loanTrackingImg.svg";
 import loan1 from "../assets/loan1.svg";
 import loan2 from "../assets/loan2.svg";
@@ -16,12 +15,10 @@ import {
   Box,
 } from "@chakra-ui/react";
 import "./Styles/home.css";
-import Footer from "../Components/Footer";
 
 const Loan = () => {
   return (
     <div>
-      <Header />
       <div className="intro-section">
         <div className="info-div">
           <h3 className="loan-head">LOAN TRACKING SYSTEMS</h3>

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../Components/Header";
 import introimg from "../assets/intro-image.svg";
 import intro from "../assets/intro.svg";
 import line from "../assets/line.svg";
@@ -8,13 +7,10 @@ import qrshop from "../assets/qrShop.svg";
 import subimg1 from "../assets/fastCom.svg";
 import subimg2 from "../assets/CC.svg";
 import "./Styles/home.css";
-import Footer from "../Components/Footer";
-import { Divider, Stack } from "@chakra-ui/react";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <div className="intro-section">
         <div className="info-div">
           <h1>
@@ -138,7 +134,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
