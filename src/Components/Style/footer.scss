@@ -30,7 +30,7 @@ $linkColor: #bfb5c4;
 
   .logo-div {
     margin-top: 4%;
-    img{
+    img {
       width: 120px;
     }
   }
@@ -56,12 +56,12 @@ $linkColor: #bfb5c4;
     border-top: 1px solid lightgray;
     padding-top: 10px;
 
-    .socials{
+    .socials {
       justify-content: flex-end;
-      img{
+      img {
         width: 20px;
         float: right;
-       margin: 0px 5px;
+        margin: 0px 5px;
       }
     }
 
@@ -74,6 +74,36 @@ $linkColor: #bfb5c4;
         color: $linkColor;
         margin: 2.7% 10px;
         font-size: small;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    padding: 1% 5%;
+  }
+
+  .footer-section {
+    h2 {
+      margin-top: 4%;
+    }
+
+    .nav-links-div {
+      flex-direction: column;
+      margin-top: 4%;
+
+      .nav-links {
+        flex-direction: column;
+        margin-bottom: 4%;
+      }
+    }
+    .footer-last {
+      flex-direction: column;
+      text-align: center;
+
+      .socials {
+        justify-content: center;
       }
     }
   }

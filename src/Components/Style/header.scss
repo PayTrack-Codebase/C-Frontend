@@ -16,6 +16,10 @@ $secondaryColor: #e6767a;
     flex: 1;
   }
 
+  .mb-nav-links {
+    display: none;
+  }
+
   .nav-links {
     flex: 4;
     justify-content: flex-start;
@@ -125,36 +129,12 @@ $secondaryColor: #e6767a;
       display: none;
     }
 
+    .mb-nav-links {
+      display: flex;
+    }
+
     .buttons {
       display: none;
     }
   }
-
-  // .login-header {
-  //   padding: 1% 5%;
-
-  //   .header-div {
-  //     float: right;
-  //     display: flex;
-  //     width: 100%;
-  //     justify-content: end;
-  //   }
-
-  //   p {
-  //     margin-right: 2%;
-  //   }
-
-  //   .btn {
-  //     width: 150px;
-  //     height: 50px;
-  //     background-color: $secondaryColor;
-  //     border-radius: 5px;
-  //     border: none;
-
-  //     .link {
-  //       color: $primaryColor;
-  //       text-decoration: none;
-  //     }
-  //   }
-  // }git
 }

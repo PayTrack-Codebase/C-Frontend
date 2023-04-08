@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HiMenu } from "react-icons/hi";
 import logo from "../assets/logo.svg";
 import "./Style/header.css";
 import {
@@ -23,10 +24,70 @@ const Header = () => {
           </Link>
         </div>
 
+        <div className="mb-nav-links">
+          <Menu className="link">
+            <MenuButton
+              width="fit-content"
+              color="White"
+              height="50px"
+              className="link"
+              fontSize="xx-large"
+            >
+              <HiMenu />
+            </MenuButton>
+            <MenuList className="pop-over">
+              <MenuItem>
+                {" "}
+                <Link to="/" className="plink">
+                  Home
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                {" "}
+                <Link to="/loan" className="plink">
+                  Products
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                {" "}
+                <Link to="/loan" className="plink">
+                  Company
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                {" "}
+                <Link to="/qr" className="plink2">
+                  {" "}
+                  Resources
+                </Link>
+              </MenuItem>
+
+              <MenuDivider />
+              <MenuGroup fontWeight="medium" fontSize="16px" title="Solutions">
+                <MenuItem>
+                  {" "}
+                  <Link to="/loan" className="plink">
+                    Loan Tracking Sytem
+                  </Link>
+                </MenuItem>
+                <MenuItem>
+                  {" "}
+                  <Link to="/qr" className="plink2">
+                    {" "}
+                    QR Code Payment System
+                  </Link>
+                </MenuItem>
+              </MenuGroup>
+            </MenuList>
+          </Menu>
+        </div>
+
         <div className="nav-links">
           <Link className="link">Products</Link>
           <Menu className="link">
-            <MenuButton width="fit-content" height="25px" className="link">Solutions</MenuButton>
+            <MenuButton width="fit-content" height="25px" className="link">
+              Solutions
+            </MenuButton>
             <MenuList className="pop-over">
               <MenuItem>
                 {" "}

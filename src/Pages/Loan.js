@@ -3,7 +3,17 @@ import { Link } from "react-router-dom";
 import loanimg from "../assets/loanTrackingImg.svg";
 import loan1 from "../assets/loan1.svg";
 import loan2 from "../assets/loan2.svg";
+import line from "../assets/line.svg";
 import loan3 from "../assets/loan3.svg";
+import subimg2 from "../assets/CC.svg";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+  Box,
+} from "@chakra-ui/react";
 import "./Styles/home.css";
 
 const Loan = () => {
@@ -28,7 +38,12 @@ const Loan = () => {
       </div>
 
       <div className="section2-heading">
-        <p className="head">BENEFITS</p>
+        <div className="withline-gb">
+          <div className="withLine">
+            <img src={line} alt=""></img>
+            <h3>BENEFITS</h3>
+          </div>
+        </div>
         <h2>Loan Tracking built to be evolutionary and secured</h2>
         <div className="section2">
           <div className="image-div">
@@ -62,7 +77,7 @@ const Loan = () => {
         </div>
       </div>
 
-      <div className="section2">
+      <div className="section2 last-bt" >
         <div className="image-div">
           <img src={loan3} alt=""></img>
         </div>
@@ -77,6 +92,109 @@ const Loan = () => {
           </p>
         </div>
       </div>
+
+      <div className="faq-section">
+        <h2 className="faq-h">Frequently Asked Questions</h2>
+        <Accordion defaultIndex={[0]} allowMultiple>
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  What is a Loan Tracking System?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              A Loan tracking system is a system built with the latest
+              technologies in Finance and Block chain in order to effectively
+              monitor, dispense and track loans which are provided by financial
+              companies and banks.
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  How does the loan tracking system work?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              lorem est, gravida quis placerat ut, tristique nec purus. Cras
+              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
+              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
+              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
+              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
+              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  How does the loan tracking system work?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              lorem est, gravida quis placerat ut, tristique nec purus. Cras
+              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
+              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
+              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
+              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
+              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  How does the loan tracking system work?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              lorem est, gravida quis placerat ut, tristique nec purus. Cras
+              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
+              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
+              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
+              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
+              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+            </AccordionPanel>
+          </AccordionItem>
+
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  How does the loan tracking system work?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              lorem est, gravida quis placerat ut, tristique nec purus. Cras
+              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
+              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
+              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
+              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
+              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+            </AccordionPanel>
+          </AccordionItem>
+        </Accordion>
+      </div>
+      <Footer />
     </div>
   );
 };
