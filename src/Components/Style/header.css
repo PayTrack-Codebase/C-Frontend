@@ -10,6 +10,9 @@
   margin-top: 6px;
   flex: 1;
 }
+.header-section .mb-nav-links {
+  display: none;
+}
 .header-section .nav-links {
   flex: 4;
   justify-content: flex-start;
@@ -105,6 +108,9 @@
   }
   .header-section .nav-links {
     display: none;
+  }
+  .header-section .mb-nav-links {
+    display: flex;
   }
   .header-section .buttons {
     display: none;

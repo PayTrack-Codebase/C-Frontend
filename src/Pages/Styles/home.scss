@@ -13,8 +13,15 @@ $secondaryColor: #e6767a;
     flex: 7;
     font-weight: bold;
     color: $secondaryColor;
+    letter-spacing: 5px;
   }
 }
+
+.withline-gb {
+  margin-bottom: 20px;
+  margin-left: 43%;
+}
+
 .withLine-QR {
   display: flex;
   margin-bottom: 20px;
@@ -34,6 +41,7 @@ $secondaryColor: #e6767a;
     flex: 10;
     font-weight: bold;
     color: $secondaryColor;
+    letter-spacing: 5px;
   }
 }
 
@@ -93,6 +101,7 @@ $secondaryColor: #e6767a;
     }
   }
 }
+
 .image-div-loan {
   margin-top: 2%;
   margin-bottom: -4.2%;
@@ -105,9 +114,14 @@ $secondaryColor: #e6767a;
     margin-bottom: -20px;
   }
 }
+
+.last-bt {
+  border-bottom: 1px solid lightgray;
+}
 .section2 {
   display: flex;
-  padding: 3% 5%;
+  margin: 3% 5%;
+  padding-bottom: 5%;
   color: $primaryColor;
 
   .image-div {
@@ -130,9 +144,10 @@ $secondaryColor: #e6767a;
       line-height: 35px;
     }
     .intro1 {
-      margin-top: 10%;
-      font-size: 50px;
+      margin-top: 15%;
+      font-size: 32px;
       margin-bottom: 1%;
+      font-weight: bold;
     }
     .intro2 {
       margin-top: 0px;
@@ -161,8 +176,13 @@ $secondaryColor: #e6767a;
   }
   h2 {
     text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin-bottom: 20px;
   }
 }
+
 .section3 {
   display: flex;
   padding: 3% 5%;
@@ -175,6 +195,7 @@ $secondaryColor: #e6767a;
 
   .section3-content {
     flex: 1;
+    margin-right: 5%;
 
     h2 {
       font-size: 32px;
@@ -184,9 +205,10 @@ $secondaryColor: #e6767a;
       line-height: 35px;
     }
     .intro1 {
-      margin-top: 10%;
-      font-size: 50px;
+      margin-top: 15%;
+      font-size: 32px;
       margin-bottom: 1%;
+      font-weight: bold;
     }
     .intro2 {
       margin-top: 0px;
@@ -353,10 +375,172 @@ $secondaryColor: #e6767a;
   }
 }
 
+.faq-section {
+  padding: 3% 20%;
 
-
+  .faq-h {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: $primaryColor;
+    margin-bottom: 30px;
+  }
+}
 
 //Responsive view for mobile devices
-@media screen and (max-width: 767px) {
-  
+@media only screen and (max-width: 600px) {
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+
+    .info-div {
+      flex: 1;
+
+      h1 {
+        font-size: 40px;
+        width: 100%;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 15px;
+      }
+
+      button {
+        width: 100%;
+        margin: 40px 30px 0px 0px;
+      }
+    }
+    .image-div-loan {
+      margin-top: 6%;
+    }
+    .image-div {
+      margin-top: 6%;
+
+      img {
+        width: 800px;
+      }
+    }
+  }
+  .section2-heading {
+    margin-top: 15%;
+
+    .withline-gb {
+      margin-bottom: 20px;
+      margin-left: 28%;
+    }
+  }
+  .section2 {
+    flex-direction: column;
+    margin-top: 10%;
+
+    .image-div {
+      margin-bottom: 10%;
+    }
+    .section2-content {
+      flex: 1;
+      padding-bottom: 4%;
+
+      .withLine {
+        h3 {
+          letter-spacing: 5px;
+        }
+      }
+
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 5%;
+      }
+
+      p {
+        line-height: 30px;
+        font-size: 18px;
+        margin-top: 4%;
+        color: #747474;
+      }
+
+      button {
+        margin: 5% 30px 8% 0px;
+      }
+    }
+  }
+
+  .section3 {
+    flex-direction: column;
+
+    .withLine {
+      h3 {
+        letter-spacing: 5px;
+        margin-top: 5%;
+      }
+    }
+    .image-div {
+      flex: 1;
+      margin-top: 4%;
+      margin-bottom: 10%;
+    }
+
+    .section3-content {
+      border-top: 1px solid lightgray;
+      padding-top: 10%;
+      flex: 1;
+
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-top: 5%;
+      }
+
+      p {
+        line-height: 30px;
+        font-size: 18px;
+        margin-top: 4%;
+        color: #747474;
+      }
+
+      li {
+        margin: 2% 2%;
+        color: #747474;
+      }
+      button {
+        margin: 5% 30px 8% 0px;
+
+        .link {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .section4 {
+    padding: 10% 5%;
+
+    .section4-child {
+      flex-direction: column;
+
+      div {
+        flex: 1;
+        background-color: white;
+        margin: 2% 1%;
+        padding: 8%;
+        text-align: left;
+        border-radius: 10px;
+      }
+      h4 {
+        margin: 0px;
+      }
+    }
+    .section4-h2 {
+      font-size: 24px;
+    }
+    .section4-p {
+      font-size: 18px;
+      margin-top: 4%;
+    }
+  }
+  .faq-section {
+    padding: 3% 10%;
+  }
 }

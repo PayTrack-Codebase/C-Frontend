@@ -20,6 +20,7 @@ const Footer = () => {
         <div className="logo-div">
           <img src={logo} alt="logo"></img>
         </div>
+
         <div className="nav-links-div">
           <div className="nav-links">
             <h4>Company</h4>
@@ -84,9 +85,6 @@ const Footer = () => {
             </Link>
             <Link to="solutions" className="link">
               Privacy Policy
-            </Link>
-            <Link to="solutions" className="link">
-              Products
             </Link>
           </div>
           <div className="socials">

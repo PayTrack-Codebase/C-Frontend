@@ -41,10 +41,13 @@ const Home = () => {
           <img src={intro} alt=""></img>
         </div>
         <div className="section2-content">
-          <div className="withLine">
-            <img src={line} alt=""></img>
-            <h3>LOAN TRACKING SYSTEMS</h3>
+          <div className="withline">
+            <div className="withLine">
+              <img src={line} alt=""></img>
+              <h3>LOAN TRACKING SYSTEMS</h3>
+            </div>
           </div>
+
           <h2>Get control and visibility over every loan requested</h2>
           <p>
             Our loan tracking system automates the loan management process and
@@ -93,7 +96,9 @@ const Home = () => {
 
       <div className="section4">
         <h2 className="section4-h2">Here's why our customers love us</h2>
-        <p className="section4-p">We handle financial activities in a very easy and simple manner.</p>
+        <p className="section4-p">
+          We handle financial activities in a very easy and simple manner.
+        </p>
         <div className="section4-child">
           <div>
             <img src={subimg1} alt=""></img>

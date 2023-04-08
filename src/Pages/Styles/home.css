@@ -10,6 +10,12 @@
   flex: 7;
   font-weight: bold;
   color: #e6767a;
+  letter-spacing: 5px;
+}
+
+.withline-gb {
+  margin-bottom: 20px;
+  margin-left: 43%;
 }
 
 .withLine-QR {
@@ -31,6 +37,7 @@
   flex: 10;
   font-weight: bold;
   color: #e6767a;
+  letter-spacing: 5px;
 }
 
 .intro-section {
@@ -94,9 +101,14 @@
   margin-bottom: -20px;
 }
 
+.last-bt {
+  border-bottom: 1px solid lightgray;
+}
+
 .section2 {
   display: flex;
-  padding: 3% 5%;
+  margin: 3% 5%;
+  padding-bottom: 5%;
   color: #3e214f;
 }
 .section2 .image-div {
@@ -116,9 +128,10 @@
   line-height: 35px;
 }
 .section2 .section2-content .intro1 {
-  margin-top: 10%;
-  font-size: 50px;
+  margin-top: 15%;
+  font-size: 32px;
   margin-bottom: 1%;
+  font-weight: bold;
 }
 .section2 .section2-content .intro2 {
   margin-top: 0px;
@@ -146,6 +159,10 @@
 }
 .section2-heading h2 {
   text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3e214f;
+  margin-bottom: 20px;
 }
 
 .section3 {
@@ -159,6 +176,7 @@
 }
 .section3 .section3-content {
   flex: 1;
+  margin-right: 5%;
 }
 .section3 .section3-content h2 {
   font-size: 32px;
@@ -167,9 +185,10 @@
   line-height: 35px;
 }
 .section3 .section3-content .intro1 {
-  margin-top: 10%;
-  font-size: 50px;
+  margin-top: 15%;
+  font-size: 32px;
   margin-bottom: 1%;
+  font-weight: bold;
 }
 .section3 .section3-content .intro2 {
   margin-top: 0px;
@@ -320,4 +339,147 @@
 .lastSection .ls-div .img img {
   border-radius: 10px;
   float: right;
+}
+
+.faq-section {
+  padding: 3% 20%;
+}
+.faq-section .faq-h {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #3e214f;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+  }
+  .intro-section .info-div {
+    flex: 1;
+  }
+  .intro-section .info-div h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+  .intro-section .info-div p {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .intro-section .info-div button {
+    width: 100%;
+    margin: 40px 30px 0px 0px;
+  }
+  .intro-section .image-div-loan {
+    margin-top: 6%;
+  }
+  .intro-section .image-div {
+    margin-top: 6%;
+  }
+  .intro-section .image-div img {
+    width: 800px;
+  }
+  .section2-heading {
+    margin-top: 15%;
+  }
+  .section2-heading .withline-gb {
+    margin-bottom: 20px;
+    margin-left: 28%;
+  }
+  .section2 {
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .section2 .image-div {
+    margin-bottom: 10%;
+  }
+  .section2 .section2-content {
+    flex: 1;
+    padding-bottom: 4%;
+  }
+  .section2 .section2-content .withLine h3 {
+    letter-spacing: 5px;
+  }
+  .section2 .section2-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  .section2 .section2-content p {
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 4%;
+    color: #747474;
+  }
+  .section2 .section2-content button {
+    margin: 5% 30px 8% 0px;
+  }
+  .section3 {
+    flex-direction: column;
+  }
+  .section3 .withLine h3 {
+    letter-spacing: 5px;
+    margin-top: 5%;
+  }
+  .section3 .image-div {
+    flex: 1;
+    margin-top: 4%;
+    margin-bottom: 10%;
+  }
+  .section3 .section3-content {
+    border-top: 1px solid lightgray;
+    padding-top: 10%;
+    flex: 1;
+  }
+  .section3 .section3-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 5%;
+  }
+  .section3 .section3-content p {
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 4%;
+    color: #747474;
+  }
+  .section3 .section3-content li {
+    margin: 2% 2%;
+    color: #747474;
+  }
+  .section3 .section3-content button {
+    margin: 5% 30px 8% 0px;
+  }
+  .section3 .section3-content button .link {
+    font-weight: 600;
+  }
+  .section4 {
+    padding: 10% 5%;
+  }
+  .section4 .section4-child {
+    flex-direction: column;
+  }
+  .section4 .section4-child div {
+    flex: 1;
+    background-color: white;
+    margin: 2% 1%;
+    padding: 8%;
+    text-align: left;
+    border-radius: 10px;
+  }
+  .section4 .section4-child h4 {
+    margin: 0px;
+  }
+  .section4 .section4-h2 {
+    font-size: 24px;
+  }
+  .section4 .section4-p {
+    font-size: 18px;
+    margin-top: 4%;
+  }
+  .faq-section {
+    padding: 3% 10%;
+  }
 }/*# sourceMappingURL=home.css.map */
