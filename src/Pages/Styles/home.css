@@ -11,6 +11,7 @@
   font-weight: bold;
   color: #e6767a;
   letter-spacing: 5px;
+  text-align: left;
 }
 
 .withline-gb {
@@ -22,10 +23,9 @@
   display: flex;
   margin-bottom: 20px;
   text-align: center;
-  padding: 0% 5%;
+  padding: 0% 0%;
   justify-content: center;
-  width: 25%;
-  margin: 0% 37%;
+  width: 50%;
 }
 .withLine-QR img {
   margin-right: 10px;
@@ -38,6 +38,7 @@
   font-weight: bold;
   color: #e6767a;
   letter-spacing: 5px;
+  text-align: left;
 }
 
 .intro-section {
@@ -315,7 +316,7 @@
 .lastSection .ls-div .list .list1 .number {
   background-color: #3e214f;
   color: white;
-  padding: 1%;
+  font-size: 14px;
   margin-left: 2%;
   border-radius: 50%;
   height: 20px;
@@ -327,7 +328,7 @@
   margin-left: 3%;
 }
 .lastSection .ls-div .list .list1 .desc-head {
-  margin-top: 3%;
+  margin-top: 0%;
   margin-left: 3%;
   font-weight: bold;
   color: #3e214f;

@@ -14,8 +14,11 @@ $secondaryColor: #e6767a;
     font-weight: bold;
     color: $secondaryColor;
     letter-spacing: 5px;
+    text-align: left;
   }
 }
+
+
 
 .withline-gb {
   margin-bottom: 20px;
@@ -26,10 +29,10 @@ $secondaryColor: #e6767a;
   display: flex;
   margin-bottom: 20px;
   text-align: center;
-  padding: 0% 5%;
+  padding: 0% 0%;
   justify-content: center;
-  width: 25%;
-  margin: 0% 37%;
+  width: 50%;
+  // margin: 0% 37%;
 
   img {
     margin-right: 10px;
@@ -42,6 +45,7 @@ $secondaryColor: #e6767a;
     font-weight: bold;
     color: $secondaryColor;
     letter-spacing: 5px;
+    text-align: left;
   }
 }
 
@@ -344,7 +348,7 @@ $secondaryColor: #e6767a;
         .number {
           background-color: $primaryColor;
           color: white;
-          padding: 1%;
+          font-size: 14px;
           margin-left: 2%;
           border-radius: 50%;
           height: 20px;
@@ -356,7 +360,7 @@ $secondaryColor: #e6767a;
           margin-left: 3%;
         }
         .desc-head {
-          margin-top: 3%;
+          margin-top: 0%;
           margin-left: 3%;
           font-weight: bold;
           color: #3e214f;
