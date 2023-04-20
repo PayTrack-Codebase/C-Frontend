@@ -16,12 +16,16 @@ import {
 } from "@chakra-ui/react";
 import "./Styles/home.css";
 
+
 const Loan = () => {
   return (
     <div>
       <div className="intro-section">
         <div className="info-div">
-          <h3 className="loan-head">LOAN TRACKING SYSTEMS</h3>
+          <div className="withLine-QR">
+            <img src={line} alt=""></img>
+            <h3 className="loan-head">LOAN TRACKING SYSTEM</h3>
+          </div>
           <h1>Loan tracking system for financial industries.</h1>
           <p>
             Provide a secure and easy way to pay for goods and services using QR
@@ -77,7 +81,7 @@ const Loan = () => {
         </div>
       </div>
 
-      <div className="section2 last-bt" >
+      <div className="section2 last-bt">
         <div className="image-div">
           <img src={loan3} alt=""></img>
         </div>
@@ -194,7 +198,6 @@ const Loan = () => {
           </AccordionItem>
         </Accordion>
       </div>
-      <Footer />
     </div>
   );
 };

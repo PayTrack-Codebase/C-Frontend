@@ -9,14 +9,66 @@ import qrImgOne from "../assets/qr-code-img.png";
 import loan2 from "../assets/loan2.svg";
 import line from "../assets/line.svg";
 import login from "../assets/Qrphone.png";
+import QrCarousel from "../Components/QrCarousel";
 import "./Styles/home.css";
 
 const Qr = () => {
+  const data = [
+    {
+      id: 1,
+      name: "Chinyere Sabdat",
+      occupation: "Business Owner",
+      description:
+        "I have been using this QR payment system for a while now and I am really impressed. I just send a picture of my QR to my customers and they make payments easy. Thank you TrackPay.",
+      location: "Lagos, Nigeria.",
+    },
+    {
+      id: 2,
+      name: "Efe Chibike",
+      occupation: "Business Owner",
+      description:
+        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options.",
+      location: "Lagos, Nigeria.",
+    },
+    {
+      id: 3,
+      name: "Chimamanda Akerele",
+      occupation: "Business Owner",
+      description:
+        "I was hesitant to try a QR payment system because i thought it might be complicated for my business. But it was actually easy. I love hoe my customers just need my QR code to make payments.",
+      location: "Lagos, Nigeria.",
+    },
+    {
+      id: 4,
+      name: "Chinyere Sabdat",
+      occupation: "Business Owner",
+      description:
+        "I have been using this QR payment system for a while now and I am really impressed. I just send a picture of my QR to my customers and they make payments easy. Thank you TrackPay.",
+      location: "Lagos, Nigeria.",
+    },
+    {
+      id: 5,
+      name: "Efe Chibike",
+      occupation: "Business Owner",
+      description:
+        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options.",
+      location: "Lagos, Nigeria.",
+    },
+    {
+      id: 4,
+      name: "Chimamanda Akerele",
+      occupation: "Business Owner",
+      description:
+        "I was hesitant to try a QR payment system because i thought it might be complicated for my business. But it was actually easy. I love hoe my customers just need my QR code to make payments.",
+      location: "Lagos, Nigeria.",
+    },
+  ];
+
   return (
     <div>
       <div className="intro-section">
         <div className="info-div">
-          <div className="withLine">
+          <div className="withLine-QR">
             <img src={line} alt=""></img>
             <h3 className="loan-head">QR PAYMENT SYSTEM</h3>
           </div>
@@ -36,9 +88,11 @@ const Qr = () => {
       </div>
 
       <div className="mini-vw">
-        <div className="withLine-QR">
-          <img src={line} alt=""></img>
-          <h3 className="loan-head">QR PAYMENT SYSTEM</h3>
+        <div className="withline-gb">
+          <div className="withLine">
+            <img src={line} alt=""></img>
+            <h3>QR-CODE PAYMENT</h3>
+          </div>
         </div>
         <h1 className="mini-w-h">Payments made easy the TrackPay way.</h1>
         <p className="mini-w-p">
@@ -83,9 +137,11 @@ const Qr = () => {
 
       <div className="benefits-QR">
         <div className="section2-heading">
-          <div className="withLine-QR">
-            <img src={line} alt=""></img>
-            <h3 className="loan-head">BENEFITS</h3>
+          <div className="withline-gb">
+            <div className="withLine">
+              <img src={line} alt=""></img>
+              <h3>BENEFITS</h3>
+            </div>
           </div>
           <h2 className="mini-w-h">
             Loan Tracking built to be evolutionary and secured
@@ -111,7 +167,7 @@ const Qr = () => {
         <div className="section3">
           <div className="section3-content">
             <h4 className="intro1">
-            Manage your payments easily in one place.
+              Manage your payments easily in one place.
             </h4>
             <p className="intro2">
               Collabrating with banks would be a very helpful way for startups
@@ -128,17 +184,20 @@ const Qr = () => {
       <div className="lastSection">
         <div className="ls-div">
           <div className="list">
-            <div className="head">
-              <h3>How it works.</h3>
-              <h1>Start accepting payments in less than 10 mins.</h1>
+            <div className="withline-QR">
+              <div className="withLine">
+                <img src={line} alt=""></img>
+                <h3>HOW IT WORKS</h3>
+              </div>
             </div>
+
             <div className="list1">
               <p className="number">1</p>
               <div>
-                <p className="desc-head">Create an account.</p>
+                <p className="desc-head">Create an account</p>
                 <p className="desc">
-                  Sign up for an account with your name, email, phone number and
-                  business details.
+                  Sign up for an account on TrackPay with your name, email
+                  address, phone number and business details.
                 </p>
               </div>
             </div>
@@ -171,6 +230,7 @@ const Qr = () => {
           </div>
         </div>
       </div>
+      <QrCarousel data={data} />
     </div>
   );
 };
