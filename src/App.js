@@ -29,15 +29,15 @@ function App() {
         <Routes>
           <Route element={<PublicLayout />} path="/">
             <Route path="/trackpaytechnologies.com" element={<Home />} />
-            <Route path="/loan" element={<Loan />} />
-            <Route path="/product" element={<Product />} />
-            <Route path="/qr" element={<Qr />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/trackpaytechnologies.com/loan" element={<Loan />} />
+            <Route path="/trackpaytechnologies.com/product" element={<Product />} />
+            <Route path="/trackpaytechnologies.com/qr" element={<Qr />} />
+            <Route path="/trackpaytechnologies.com/contact" element={<Contact />} />
+            <Route path="/trackpaytechnologies.com/about" element={<About />} />
           </Route>
-          <Route element={<AuthLayout />} path="/auth">
-            <Route element={<Login />} path="/auth/login" />
-            <Route element={<Register />} path="/auth/register" />
+          <Route element={<AuthLayout />} path="/trackpaytechnologies.com/auth">
+            <Route element={<Login />} path="/trackpaytechnologies.com/auth/login" />
+            <Route element={<Register />} path="/trackpaytechnologies.com/auth/register" />
           </Route>
         </Routes>
       </Router>

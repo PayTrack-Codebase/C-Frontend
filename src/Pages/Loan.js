@@ -31,7 +31,7 @@ const Loan = () => {
             loans distributed to SME's and small businesses.
           </p>
           <button>
-            <Link to="/contact" className="link">
+            <Link to="/trackpaytechnologies.com/contact" className="link">
               Contact Us
             </Link>
           </button>

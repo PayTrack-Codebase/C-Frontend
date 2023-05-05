@@ -87,7 +87,7 @@ const Qr = () => {
             payments instead of using the traditional payment methods.
           </p>
           <button>
-            <Link to="/auth/register" className="link">
+            <Link to="/trackpaytechnologies.com/auth/register" className="link">
               Get Started
             </Link>
           </button>
@@ -243,7 +243,10 @@ const Qr = () => {
               </div>
             </div>
             <button className="btn">
-              <Link to="/getStarted" className="link">
+              <Link
+                to="//trackpaytechnologies.com/auth/register"
+                className="link"
+              >
                 Get Started
               </Link>
             </button>
@@ -263,7 +266,9 @@ const Qr = () => {
               Find out which of our products fit your business needs and get all
               your questions answered.
             </p>
-            <Link className="btn">Contact sales</Link>
+            <Link to="/trackpaytechnologies.com/contact" className="btn">
+              Contact sales
+            </Link>
           </div>
           <div className="GT-flex2">
             <h1>Talk to our support team</h1>
@@ -271,7 +276,9 @@ const Qr = () => {
               Get access to helpful tips, articles and FAQs to get the most out
               of Track Pay.
             </p>
-            <Link className="btn">Visit our support center</Link>
+            <Link to="/trackpaytechnologies.com/contact" className="btn">
+              Visit our support center
+            </Link>
           </div>
         </div>
       </section>

@@ -76,7 +76,7 @@ const Hero = () => {
           lineHeight="18px"
           marginTop="5%"
         >
-          <Link to="/contact"> Let’s Talk</Link>
+          <Link to="/trackpaytechnologies.com/contact"> Let’s Talk</Link>
         </Button>
       </Flex>
     </Flex>

@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer-section">
         <h2>Trust us to track your loan process and payments</h2>
         <button className="btn">
-          <Link to="getStarted" className="link">
+          <Link to="/trackpaytechnologies.com/auth/register" className="link">
             Get Started
           </Link>
         </button>
@@ -25,55 +25,55 @@ const Footer = () => {
         <div className="nav-links-div">
           <div className="nav-links">
             <h4>Company</h4>
-            <Link to="/about" className="link">
+            <Link to="/trackpaytechnologies.com/about" className="link">
               Our mission
             </Link>
-            <Link to="/contact" className="link">
+            <Link to="/trackpaytechnologies.com/contact" className="link">
               Our customer
             </Link>
-            <Link to="/about" className="link">
+            <Link to="/trackpaytechnologies.com/about" className="link">
               Our Team
             </Link>
-            <Link to="/loan" className="link">
+            <Link to="/trackpaytechnologies.com/loan" className="link">
               FAQs
             </Link>
           </div>
           <div className="nav-links">
             <h4>Products</h4>
-            <Link to="/loan" className="link">
+            <Link to="/trackpaytechnologies.com/loan" className="link">
               Loan Tacking System
             </Link>
-            <Link to="/QR" className="link">
+            <Link to="/trackpaytechnologies.com/QR" className="link">
               QR Payment System
             </Link>
-            <Link to="/contact" className="link">
+            <Link to="/trackpaytechnologies.com/contact" className="link">
               Pricing
             </Link>
-            <Link to="/about" className="link">
+            <Link to="/trackpaytechnologies.com/about" className="link">
               Partners
             </Link>
           </div>
           <div className="nav-links">
             <h4>Solutions</h4>
-            <Link to="/product" className="link">
+            <Link to="/trackpaytechnologies.com/product" className="link">
               Financial Industries
             </Link>
-            <Link to="/product" className="link">
+            <Link to="/trackpaytechnologies.com/product" className="link">
               SMEs
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/trackpaytechnologies.com/products" className="link">
               Banks
             </Link>
           </div>
           <div className="nav-links">
             <h4>Contact Us</h4>
-            <Link to="/contact" className="link">
+            <Link to="/trackpaytechnologies.com/contact" className="link">
               Contact Us
             </Link>
-            <Link to="/auth/login" className="link">
+            <Link to="/trackpaytechnologies.com/auth/login" className="link">
               Login
             </Link>
-            <Link to="/auth/register" className="link">
+            <Link to="/trackpaytechnologies.com/auth/register" className="link">
               Get Started
             </Link>
           </div>
@@ -85,10 +85,10 @@ const Footer = () => {
               <p>TrackPay</p>
             </div>
 
-            <Link to="solutions" className="link">
+            <Link to="/trackpaytechnologies.com" className="link">
               Terms of service
             </Link>
-            <Link to="solutions" className="link">
+            <Link to="/trackpaytechnologies.com" className="link">
               Privacy Policy
             </Link>
           </div>

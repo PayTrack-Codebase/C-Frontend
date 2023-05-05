@@ -19,7 +19,7 @@ const Header = () => {
     <div className="header">
       <div className="header-section">
         <div className="logo-div">
-          <Link to="/">
+          <Link to="/trackpaytechnologies.com">
             <img src={logo} alt="logo"></img>
           </Link>
         </div>
@@ -38,20 +38,20 @@ const Header = () => {
             <MenuList className="pop-over">
               <MenuItem>
                 {" "}
-                <Link to="/" className="plink">
+                <Link to="/trackpaytechnologies.com" className="plink">
                   Home
                 </Link>
               </MenuItem>
               <MenuItem>
                 {" "}
-                <Link to="/product" className="plink">
+                <Link to="/trackpaytechnologies.com/product" className="plink">
                   Products
                 </Link>
               </MenuItem>
 
               <MenuItem>
                 {" "}
-                <Link to="/about" className="plink2">
+                <Link to="/trackpaytechnologies.com/about" className="plink2">
                   {" "}
                   About Us
                 </Link>
@@ -61,13 +61,13 @@ const Header = () => {
               <MenuGroup fontWeight="medium" fontSize="16px" title="Solutions">
                 <MenuItem>
                   {" "}
-                  <Link to="/loan" className="plink">
+                  <Link to="/trackpaytechnologies.com/loan" className="plink">
                     Loan Tracking Sytem
                   </Link>
                 </MenuItem>
                 <MenuItem>
                   {" "}
-                  <Link to="/qr" className="plink2">
+                  <Link to="/trackpaytechnologies.com/qr" className="plink2">
                     {" "}
                     QR Code Payment System
                   </Link>
@@ -78,7 +78,7 @@ const Header = () => {
         </div>
 
         <div className="nav-links">
-          <Link to="/product" className="link">
+          <Link to="/trackpaytechnologies.com/product" className="link">
             Products
           </Link>
           <Menu className="link">
@@ -88,13 +88,13 @@ const Header = () => {
             <MenuList className="pop-over">
               <MenuItem>
                 {" "}
-                <Link to="/loan" className="plink">
+                <Link to="/trackpaytechnologies.com/loan" className="plink">
                   Loan Tracking Sytem
                 </Link>
               </MenuItem>
               <MenuItem>
                 {" "}
-                <Link to="/qr" className="plink2">
+                <Link to="/trackpaytechnologies.com/qr" className="plink2">
                   {" "}
                   QR Code Payment System
                 </Link>
@@ -102,14 +102,14 @@ const Header = () => {
             </MenuList>
           </Menu>
 
-          <Link to="/about" className="link">
+          <Link to="/trackpaytechnologies.com/about" className="link">
             About Us
           </Link>
         </div>
 
         <div className="buttons">
           <button className="btn">
-            <Link to="/contact" className="link">
+            <Link to="/trackpaytechnologies.com/contact" className="link">
               Contact Us
             </Link>
           </button>

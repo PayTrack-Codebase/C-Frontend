@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="auth_header">
       <div className="register-home">
-        <Link className="btn" to="/">
+        <Link className="btn" to="/trackpaytechnologies.com">
           Home
         </Link>
       </div>

@@ -49,7 +49,7 @@ const Home = () => {
             manual effort.
           </p>
           <button className="btn">
-            <Link to="/loan" className="link">
+            <Link to="/trackpaytechnologies.com/loan" className="link">
               Learn More
             </Link>
           </button>
@@ -71,7 +71,7 @@ const Home = () => {
           </p>
 
           <button className="btn">
-            <Link to="/qr" className="link">
+            <Link to="/trackpaytechnologies.com/qr" className="link">
               Learn More
             </Link>
           </button>

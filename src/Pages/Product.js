@@ -64,7 +64,7 @@ const Product = () => {
             manual effort.
           </p>
           <button className="btn">
-            <Link to="/loan" className="link">
+            <Link to="/trackpaytechnologies.com/loan" className="link">
               Learn More
             </Link>
           </button>
@@ -88,7 +88,7 @@ const Product = () => {
             seamlessly pay for your goods or services.
           </p>
           <button className="btn">
-            <Link to="/qr" className="link">
+            <Link to="/trackpaytechnologies.com/qr" className="link">
               Learn More
             </Link>
           </button>
