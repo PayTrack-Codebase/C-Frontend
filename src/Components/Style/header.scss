@@ -64,6 +64,7 @@ $secondaryColor: #e6767a;
 
   .buttons {
     flex: 1;
+    text-align: center;
 
     .btn {
       width: 150px;
@@ -120,6 +121,8 @@ $secondaryColor: #e6767a;
     border-bottom: none;
     margin-bottom: -5px;
     padding-top: 10px;
+    width: 100%;
+    margin-right: 0px;
   }
 
   .header-section {

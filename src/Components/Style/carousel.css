@@ -1,0 +1,48 @@
+.carousel-main {
+  padding: 3% 5%;
+  background-color: #e6767a;
+  height: 500px;
+}
+.carousel-main .carousel-heading {
+  font-size: 32px;
+  color: #3e214f;
+  text-align: center;
+  margin: 1% 1%;
+  font-weight: 700;
+}
+.carousel-main .carousel-divs {
+  margin: 2%;
+}
+.carousel-main .div-item {
+  margin: 10% 0%;
+  background-color: white;
+  padding: 7% 5%;
+  border-radius: 8px;
+}
+.carousel-main .slick-slide {
+  margin-right: 10px;
+}
+.carousel-main .slick-track {
+  height: 150px;
+}
+.carousel-main .item-flex {
+  display: flex;
+  margin-bottom: 10px;
+}
+.carousel-main .item-flex h2 {
+  font-weight: 700;
+  color: #3e214f;
+}
+.carousel-main .item-flex p {
+  font-size: 14px;
+}
+.carousel-main .desc {
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 10px;
+}
+.carousel-main .item-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: -3px;
+}/*# sourceMappingURL=carousel.css.map */

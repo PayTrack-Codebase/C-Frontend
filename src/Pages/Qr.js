@@ -8,14 +8,18 @@ import mini4 from "../assets/qr-mini4.svg";
 import qrImgOne from "../assets/qr-code-img.png";
 import loan2 from "../assets/loan2.svg";
 import line from "../assets/line.svg";
-import login from "../assets/Qrphone.png";
+import login from "../assets/login.svg";
 import QrCarousel from "../Components/QrCarousel";
+import review1 from "../assets/png/Team1.png";
+import review2 from "../assets/png/Team2.png";
+import review3 from "../assets/png/Team3.png";
 import "./Styles/home.css";
 
 const Qr = () => {
   const data = [
     {
       id: 1,
+      image: review1,
       name: "Chinyere Sabdat",
       occupation: "Business Owner",
       description:
@@ -24,14 +28,16 @@ const Qr = () => {
     },
     {
       id: 2,
+      image: review2,
       name: "Efe Chibike",
       occupation: "Business Owner",
       description:
-        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options.",
+        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options and flexibility.",
       location: "Lagos, Nigeria.",
     },
     {
       id: 3,
+      image: review3,
       name: "Chimamanda Akerele",
       occupation: "Business Owner",
       description:
@@ -40,6 +46,7 @@ const Qr = () => {
     },
     {
       id: 4,
+      image: review1,
       name: "Chinyere Sabdat",
       occupation: "Business Owner",
       description:
@@ -48,14 +55,16 @@ const Qr = () => {
     },
     {
       id: 5,
+      image: review2,
       name: "Efe Chibike",
       occupation: "Business Owner",
       description:
-        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options.",
+        "As a business owner, I can’t recommend this QR payment system enough. It’s been a game-changer for my business. It also gives my customers more payment options and flexibility.",
       location: "Lagos, Nigeria.",
     },
     {
-      id: 4,
+      id: 6,
+      image: review3,
       name: "Chimamanda Akerele",
       occupation: "Business Owner",
       description:
@@ -78,7 +87,9 @@ const Qr = () => {
             payments instead of using the traditional payment methods.
           </p>
           <button>
-            <Link className="link">Get Started</Link>
+            <Link to="/auth/register" className="link">
+              Get Started
+            </Link>
           </button>
         </div>
 
@@ -96,40 +107,40 @@ const Qr = () => {
         </div>
         <h1 className="mini-w-h">Payments made easy the TrackPay way.</h1>
         <p className="mini-w-p">
-          Our QR payment system handles works perfectly with every businesses in
-          Nigeria.
+          Our QR-code payment system works perfectly with every type and mode of
+          businesses in Nigeria.
         </p>
         <div className="mini-flex">
           <div>
             <img src={mini1} alt="icon"></img>
             <h3>Retail Outlet</h3>
             <p>
-              Merchants can display QR codes in their store, allowing customers
-              to easily and securely complete transactions.
+              Merchants can display thier unique QR code in their store,
+              allowing customers to easily and securely complete transactions.
             </p>
           </div>
           <div>
             <img src={mini2} alt="icon"></img>
-            <h3>Transportation Fares</h3>
+            <h3>Transportation Fares.</h3>
             <p>
-              Merchants can display QR codes in their store, allowing customers
-              to easily and securely complete transactions.
+              Easily scan and pay for transport fares while on the go with
+              worrying about network or transfer delays.
             </p>
           </div>
           <div>
             <img src={mini3} alt="icon"></img>
-            <h3>Small and Medium Enterprises</h3>
+            <h3>Small and Medium Enterprises.</h3>
             <p>
-              Merchants can display QR codes in their store, allowing customers
-              to easily and securely complete transactions.
+              A solution like this helps SMEs to build and grow thier businesses
+              by making transfer processes fast, safe and reliable.
             </p>
           </div>
           <div>
             <img src={mini4} alt="icon"></img>
             <h3>E-Commerce Sites</h3>
             <p>
-              Merchants can display QR codes in their store, allowing customers
-              to easily and securely complete transactions.
+              A digital store? no problem as the system has the ability to scan
+              QR codes sent as an image to your phone.
             </p>
           </div>
         </div>
@@ -156,9 +167,9 @@ const Qr = () => {
                 Transactions can be made easily using your unique QR code.
               </h4>
               <p className="intro2">
-                The ability to halt invalid transactions before they are made is
-                a very important tool for lenders to ensure that loans requested
-                are used for the intended purpose.
+                Easily carry out transactions by creating a unique QR code in
+                which your customers can easily scan and pay for goods and
+                services.
               </p>
             </div>
           </div>
@@ -170,9 +181,8 @@ const Qr = () => {
               Manage your payments easily in one place.
             </h4>
             <p className="intro2">
-              Collabrating with banks would be a very helpful way for startups
-              to access the funding they need to launch and grow their
-              businesses.
+              An all in one app where you can securely manage and monitor your
+              payments with ease and efficiency.
             </p>
           </div>
           <div className="image-div">
@@ -190,9 +200,13 @@ const Qr = () => {
                 <h3>HOW IT WORKS</h3>
               </div>
             </div>
-
+            <h1 className="list-heading">
+              Start accessing payments in less than 10 minutes
+            </h1>
             <div className="list1">
-              <p className="number">1</p>
+              <div className="number">
+                <p className="num">1</p>
+              </div>
               <div>
                 <p className="desc-head">Create an account</p>
                 <p className="desc">
@@ -203,7 +217,9 @@ const Qr = () => {
             </div>
 
             <div className="list1">
-              <p className="number">2</p>
+              <div className="number">
+                <p className="num">2</p>
+              </div>
               <div>
                 <p className="desc-head">Setup QR payment codes.</p>
                 <p className="desc">
@@ -214,7 +230,10 @@ const Qr = () => {
             </div>
 
             <div className="list1">
-              <p className="number">3</p>
+              <div className="number">
+                <p className="num">3</p>
+              </div>
+
               <div>
                 <p className="desc-head">Accept payments.</p>
                 <p className="desc">
@@ -223,7 +242,11 @@ const Qr = () => {
                 </p>
               </div>
             </div>
-            <button className="btn">Get Started</button>
+            <button className="btn">
+              <Link to="/getStarted" className="link">
+                Get Started
+              </Link>
+            </button>
           </div>
           <div className="img">
             <img src={login} alt="pics"></img>
@@ -231,6 +254,27 @@ const Qr = () => {
         </div>
       </div>
       <QrCarousel data={data} />
+      <section className="getting-started">
+        <h1 className="gt-heading">Getting Started</h1>
+        <div className="GT-parent">
+          <div className="GT-flex1">
+            <h1>Talk to our sales team</h1>
+            <p>
+              Find out which of our products fit your business needs and get all
+              your questions answered.
+            </p>
+            <Link className="btn">Contact sales</Link>
+          </div>
+          <div className="GT-flex2">
+            <h1>Talk to our support team</h1>
+            <p>
+              Get access to helpful tips, articles and FAQs to get the most out
+              of Track Pay.
+            </p>
+            <Link className="btn">Visit our support center</Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

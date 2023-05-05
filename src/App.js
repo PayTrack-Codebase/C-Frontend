@@ -10,6 +10,7 @@ import Qr from "./Pages/Qr";
 import PublicLayout from "./Layouts/PublicLayout";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Product from "./Pages/Product";
 
 function App() {
   const theme = extendTheme({
@@ -29,6 +30,7 @@ function App() {
           <Route element={<PublicLayout />} path="/">
             <Route path="" element={<Home />} />
             <Route path="/loan" element={<Loan />} />
+            <Route path="/product" element={<Product />} />
             <Route path="/qr" element={<Qr />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />

@@ -12,7 +12,7 @@ const Contact = () => {
   // const [password, setPassword] = useState("");
   // const [password1, setPassword1] = useState("");
   const [btnDisabled, setBtnDisabled] = useState("");
-  const [submitted, setSubmitted] = useState(true);
+  const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
     if (

@@ -28,7 +28,7 @@ const Journey = () => {
           <Text
             color="#E6767A"
             fontWeight="700"
-            fontSize={{ base: "12px", sm: "14px" }}
+            fontSize={{ base: "14px", sm: "16px" }}
             lineHeight={{ base: "15px", sm: "18px" }}
             letterSpacing="0.16em"
           >
@@ -40,7 +40,7 @@ const Journey = () => {
           <Text
             color="#3E214F"
             fontWeight="700"
-            fontSize={{ base: "24px", sm: "27px", md: "36px" }}
+            fontSize={{ base: "32px", sm: "27px", md: "36px" }}
             lineHeight={{ base: "30px", sm: "35px", md: "45px" }}
           >
             Our TrackPay story
@@ -60,8 +60,9 @@ const Journey = () => {
               <Text
                 color="#3E214F"
                 fontWeight="600"
-                fontSize={{ base: "16px", md: "18px" }}
+                fontSize={{ base: "20px", md: "18px" }}
                 lineHeight={{ base: "24px", sm: "20px", md: "28px" }}
+                marginTop="5%"
               >
                 Revolutionising Loan Tracking and Payments for a Seamless
                 Financial Experience.
@@ -70,17 +71,15 @@ const Journey = () => {
               <Text
                 color="#747474"
                 fontWeight="500"
-                fontSize={{ base: "14px", md: "16px" }}
+                fontSize={{ base: "16px", md: "20px" }}
                 lineHeight={{ base: "28px", sm: "25px", lg: "32px" }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                tincidunt elit tempor, ullamcorper magna non, tempor quam.
-                Vivamus magna est, vulputate non finibus non, tristique ut est.
-                Nunc et porttitor lectus. Sed eleifend sem tristique fringilla
-                pulvinar. In porta est diam, in blandit odio sagittis et. Nulla
-                vulputate ultricies ligula id ultrices. Morbi quis urna porta,
-                rhoncus metus a, lacinia ligula. Phasellus dignissim ligula a
-                dui tempus, nec suscipit nisl posuere.
+                Building a fast, secure and sustainable technology that will cut
+                across all sectors and most especially help to eliminate loan
+                defaults giving both the lender and SME’s great oppurtunity to
+                grow and increase thier business and also making it easy for
+                businesses to carry out transactions in a fast, simple and
+                efficient manner with the QR code technology.
               </Text>
             </Flex>
 
@@ -91,8 +90,9 @@ const Journey = () => {
               <Text
                 color="#3E214F"
                 fontWeight="600"
-                fontSize="18px"
+                fontSize="24px"
                 lineHeight="28px"
+                marginTop="5%"
               >
                 Our Mission
               </Text>
@@ -100,13 +100,12 @@ const Journey = () => {
               <Text
                 color="#747474"
                 fontWeight="500"
-                fontSize={{ base: "14px", md: "16px" }}
+                fontSize={{ base: "16px", md: "20px" }}
                 lineHeight={{ base: "28px", sm: "25px", lg: "32px" }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                tincidunt elit tempor, ullamcorper magna non, tempor quam.
-                Vivamus magna est, vulputate non finibus non, tristique ut est.
-                Nunc et porttitor lectus.
+                To bring about growth and sustainability in the financial sector
+                especially when it comes to loan offerings and payment of goods
+                and services.
               </Text>
             </Flex>
           </Flex>
@@ -120,14 +119,12 @@ const Journey = () => {
               <Text
                 color="#747474"
                 fontWeight="500"
-                fontSize={{ base: "14px", md: "16px" }}
-                lineHeight={{base:"28px", sm: "25px", lg: "32px" }}
+                fontSize={{ base: "16px", md: "20px" }}
+                lineHeight={{ base: "28px", sm: "25px", lg: "32px" }}
               >
-                Sed eleifend sem tristique fringilla pulvinar. In porta est
-                diam, in blandit odio sagittis et. Nulla vulputate ultricies
-                ligula id ultrices. Morbi quis urna porta, rhoncus metus a,
-                lacinia ligula. Phasellus dignissim ligula a dui tempus, nec
-                suscipit nisl posuere.
+                Growing to be a world class tech company which provides
+                solutions to their customer and help in solving current issues
+                and challenges which are in the financial and business sector.
               </Text>
             </Flex>
 
@@ -138,8 +135,9 @@ const Journey = () => {
               <Text
                 color="#3E214F"
                 fontWeight="600"
-                fontSize="18px"
+                fontSize="24px"
                 lineHeight="28px"
+                marginTop="3%"
               >
                 Our vision
               </Text>
@@ -147,13 +145,16 @@ const Journey = () => {
               <Text
                 color="#747474"
                 fontWeight="500"
-                fontSize={{ base: "14px", md: "16px" }}
+                fontSize={{ base: "16px", md: "20px" }}
                 lineHeight={{ base: "28px", sm: "25px", lg: "32px" }}
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                tincidunt elit tempor, ullamcorper magna non, tempor quam.
-                Vivamus magna est, vulputate non finibus non, tristique ut est.
-                Nunc et porttitor lectus.
+                Our vision is to leverage technology to provide transparency and
+                accountability in the lending process. We want to empower
+                lenders to identify high-risk borrowers before granting loans
+                and enable borrowers to manage their loan obligations
+                effectively. By doing so, we aim to reduce the level of loan
+                defaults in the financial sector and promote financial
+                stability.
               </Text>
             </Flex>
           </Flex>
