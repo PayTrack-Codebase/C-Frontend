@@ -5,6 +5,7 @@ import instagram from "../assets/instagram.svg";
 import facebook from "../assets/facebook.svg";
 import twitter from "../assets/twitter.svg";
 import linkedin from "../assets/linkedin.svg";
+import CopyRight from "../assets/copyright.svg";
 import "./Style/footer.css";
 const Footer = () => {
   return (
@@ -24,62 +25,66 @@ const Footer = () => {
         <div className="nav-links-div">
           <div className="nav-links">
             <h4>Company</h4>
-            <Link to="mission" className="link">
+            <Link to="/about" className="link">
               Our mission
             </Link>
-            <Link to="customer-page" className="link">
+            <Link to="/contact" className="link">
               Our customer
             </Link>
-            <Link to="team" className="link">
+            <Link to="/about" className="link">
               Our Team
             </Link>
-            <Link to="faq" className="link">
+            <Link to="/loan" className="link">
               FAQs
             </Link>
           </div>
           <div className="nav-links">
             <h4>Products</h4>
-            <Link to="solutions" className="link">
+            <Link to="/loan" className="link">
               Loan Tacking System
             </Link>
-            <Link to="pricing" className="link">
+            <Link to="/QR" className="link">
               QR Payment System
             </Link>
-            <Link to="customers" className="link">
+            <Link to="/contact" className="link">
               Pricing
             </Link>
-            <Link to="about" className="link">
+            <Link to="/about" className="link">
               Partners
             </Link>
           </div>
           <div className="nav-links">
             <h4>Solutions</h4>
-            <Link to="solutions" className="link">
+            <Link to="/product" className="link">
               Financial Industries
             </Link>
-            <Link to="pricing" className="link">
+            <Link to="/product" className="link">
               SMEs
             </Link>
-            <Link to="customers" className="link">
+            <Link to="/products" className="link">
               Banks
             </Link>
           </div>
           <div className="nav-links">
             <h4>Contact Us</h4>
-            <Link to="solutions" className="link">
+            <Link to="/contact" className="link">
               Contact Us
             </Link>
-            <Link to="pricing" className="link">
+            <Link to="/auth/login" className="link">
               Login
             </Link>
-            <Link to="customers" className="link">
+            <Link to="/auth/register" className="link">
               Get Started
             </Link>
           </div>
         </div>
         <div className="footer-last">
           <div>
-            <p>TrackPay</p>
+            <div>
+              <img src={CopyRight} alt="" />
+              <p>TrackPay</p>
+            </div>
+
             <Link to="solutions" className="link">
               Terms of service
             </Link>

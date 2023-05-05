@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Style/index.scss";
-import Logo from "../../assets/logo.svg";
+import Logo from "../../assets/logo2.svg";
 import Google from "./assets/Google.svg";
 import Microsoft from "./assets/Microsoft.svg";
 import Error from "./assets/Error.svg";
@@ -19,6 +19,7 @@ const Login = () => {
       setBtnDisabled(true);
     }
   }, [email, password]);
+
 
   return (
     <div className="login">

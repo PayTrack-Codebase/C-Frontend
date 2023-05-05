@@ -16,7 +16,6 @@ import {
 } from "@chakra-ui/react";
 import "./Styles/home.css";
 
-
 const Loan = () => {
   return (
     <div>
@@ -28,11 +27,13 @@ const Loan = () => {
           </div>
           <h1>Loan tracking system for financial industries.</h1>
           <p>
-            Provide a secure and easy way to pay for goods and services using QR
-            payments instead of using the traditional payment methods.
+            Provide a secure and easy and efficient way to track and monitor
+            loans distributed to SME's and small businesses.
           </p>
           <button>
-            <Link className="link">Get Started</Link>
+            <Link to="/contact" className="link">
+              Contact Us
+            </Link>
           </button>
         </div>
 
@@ -73,7 +74,8 @@ const Loan = () => {
           </h4>
           <p className="intro2">
             Collabrating with banks would be a very helpful way for startups to
-            access the funding they need to launch and grow their businesses.
+            have access to loans and necessary funding they need to launch and
+            grow their businesses.
           </p>
         </div>
         <div className="image-div">
@@ -91,8 +93,10 @@ const Loan = () => {
             applications.
           </h4>
           <p className="intro2">
-            Collaboraring with banks would be a very helpful way for startups to
-            access the funding they need to launch pr grown theor businesses
+            With a seamlessly easy to use and secure system, banks and other
+            financial institutions will have the ability to monitor disburesed
+            loans and also track transaction processes in order to reduce loan
+            defaults.
           </p>
         </div>
       </div>
@@ -127,13 +131,10 @@ const Loan = () => {
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              lorem est, gravida quis placerat ut, tristique nec purus. Cras
-              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
-              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
-              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
-              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
-              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+              The Loan tracking system basically works by monitoring and
+              ensuring provided data and documentations are adhered to which
+              limit the level of loan defaults and ensures scalability,
+              transparency and efficiency.
             </AccordionPanel>
           </AccordionItem>
 
@@ -141,19 +142,14 @@ const Loan = () => {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                  How does the loan tracking system work?
+                  Who needs the loan tracking system
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              lorem est, gravida quis placerat ut, tristique nec purus. Cras
-              ante orci, tempus eu nisi et, lobortis aliquam lacus. Curabitur
-              venenatis nisi vel arcu scelerisque mattis. Donec blandit quis
-              tortor ac fringilla. Mauris condimentum diam eget ultrices congue.
-              Mauris est tortor, tempus eu eros nec, sagittis suscipit nibh.
-              Vestibulum sodales quam risus, ut aliquet dolor sodales nec
+              The loan tracking system is a two end system which means both the
+              financial company and SMEs will need the loan tracking system.
             </AccordionPanel>
           </AccordionItem>
 

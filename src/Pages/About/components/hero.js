@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Divider, Flex, Text } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,9 +16,9 @@ const Hero = () => {
       }}
     >
       <Flex
-        w={{base:"100%", sm: "90%", lg: "80%", xl: "73%" }}
+        w={{ base: "100%", sm: "90%", lg: "80%", xl: "73%" }}
         flexDirection="column"
-        gap={{base:"24px",sm:"18px"}}
+        gap={{ base: "24px", sm: "18px" }}
       >
         <Flex gap="12px" alignItems="center">
           <Divider
@@ -30,7 +31,7 @@ const Hero = () => {
           <Text
             color="#E6767A"
             fontWeight="700"
-            fontSize={{ base: "12px", sm: "14px" }}
+            fontSize={{ base: "14px", sm: "16px" }}
             lineHeight={{ base: "15px", sm: "18px" }}
             letterSpacing="0.16em"
           >
@@ -42,6 +43,8 @@ const Hero = () => {
           <Text
             color="#FFFFFF"
             fontWeight="700"
+            // margin-top="6%"
+            marginTop="6%"
             fontSize={{ base: "32px", sm: "35px", md: "40px", lg: "48px" }}
             lineHeight={{ base: "48px", sm: "40px", md: "60px" }}
           >
@@ -71,8 +74,9 @@ const Hero = () => {
           fontWeight="600"
           fontSize="14px"
           lineHeight="18px"
+          marginTop="5%"
         >
-          Let’s Talk
+          <Link to="/contact"> Let’s Talk</Link>
         </Button>
       </Flex>
     </Flex>

@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "trackpaytechnologies.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +15,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.29.0",
     "sass": "^1.58.0",
     "slick-carousel": "^1.8.1",
@@ -22,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

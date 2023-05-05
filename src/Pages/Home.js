@@ -17,15 +17,10 @@ const Home = () => {
             <span>Tracking Loans</span> made easy for companies offering them.
           </h1>
           <p>
-            A full-stack of tracking solutions - built mainly for tracking of
-            loans offered to individuals, companies easily. All supported by
+            A full-stack tracking solution - built majorly to track loans and
+            monitor offered to individuals companies and SME’s. All supported by
             dedicated teams, with expertise in every major market.
           </p>
-          <div>
-            <button>
-              <Link className="link">Get Started</Link>
-            </button>
-          </div>
         </div>
         <div className="image-div">
           <img src={introimg} alt=""></img>
@@ -54,7 +49,7 @@ const Home = () => {
             manual effort.
           </p>
           <button className="btn">
-            <Link to="#" className="link">
+            <Link to="/loan" className="link">
               Learn More
             </Link>
           </button>
@@ -74,13 +69,9 @@ const Home = () => {
             then automatically connects you to our payment gateway and you
             seamlessly pay for your goods or services.
           </p>
-          <ul>
-            <li>Fast, Safe and Secure</li>
-            <li>Swift and Seamless</li>
-            <li>Great for businesses and SME</li>
-          </ul>
+
           <button className="btn">
-            <Link to="#" className="link">
+            <Link to="/qr" className="link">
               Learn More
             </Link>
           </button>

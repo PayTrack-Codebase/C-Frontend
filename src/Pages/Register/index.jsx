@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../assets/logo.svg";
+import { Link } from "react-router-dom";
+import Logo from "../../assets/logo2.svg";
 import Indicator1 from "./assets/Indicator1.svg";
 import Indicator2 from "./assets/Indicator2.svg";
 import Indicator3 from "./assets/Indicator3.svg";

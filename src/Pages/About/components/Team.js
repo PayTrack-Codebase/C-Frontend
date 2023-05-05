@@ -28,14 +28,14 @@ const Team = () => {
         </Text>
 
         <Text
-          color="#313131"
+          color="#3E214F"
           fontWeight="500"
-          fontSize="14px"
+          fontSize="24px"
           lineHeight="24px"
           textAlign="center"
+          marginTop="5%"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          tincidunt elit tempor, <br /> ullamcorper magna non, tempor quam.
+          Meet our amazing team
         </Text>
       </Flex>
 
@@ -49,7 +49,7 @@ const Team = () => {
                 alignItems="center"
                 justifyContent="center"
                 key={index}
-                width={{base:"300px", sm: "250px", lg: "270px", xl: "300px" }}
+                width={{ base: "300px", sm: "250px", lg: "270px", xl: "300px" }}
               >
                 <Image src={ele.image} alt="" />
                 <Flex flexDirection="column" textAlign="center" gap="8px">

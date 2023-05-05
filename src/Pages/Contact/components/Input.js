@@ -8,7 +8,7 @@ const InputComponent = ({ label, type }) => {
         <Text
           color="#2E1818"
           fontWeight="600"
-          fontSize={{ base: "14px" }}
+          fontSize={{ base: "16px" }}
           lineHeight={{ base: "22px" }}
         >
           {label}

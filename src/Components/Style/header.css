@@ -55,6 +55,7 @@
 }
 .header-section .buttons {
   flex: 1;
+  text-align: center;
 }
 .header-section .buttons .btn {
   width: 150px;
@@ -102,6 +103,8 @@
     border-bottom: none;
     margin-bottom: -5px;
     padding-top: 10px;
+    width: 100%;
+    margin-right: 0px;
   }
   .header-section {
     display: flex;

@@ -44,21 +44,16 @@ const Header = () => {
               </MenuItem>
               <MenuItem>
                 {" "}
-                <Link to="/loan" className="plink">
+                <Link to="/product" className="plink">
                   Products
                 </Link>
               </MenuItem>
+
               <MenuItem>
                 {" "}
-                <Link to="/loan" className="plink">
-                  Company
-                </Link>
-              </MenuItem>
-              <MenuItem>
-                {" "}
-                <Link to="/qr" className="plink2">
+                <Link to="/about" className="plink2">
                   {" "}
-                  Resources
+                  About Us
                 </Link>
               </MenuItem>
 
@@ -83,7 +78,9 @@ const Header = () => {
         </div>
 
         <div className="nav-links">
-          <Link className="link">Products</Link>
+          <Link to="/product" className="link">
+            Products
+          </Link>
           <Menu className="link">
             <MenuButton width="fit-content" height="25px" className="link">
               Solutions
@@ -105,9 +102,6 @@ const Header = () => {
             </MenuList>
           </Menu>
 
-          <Link to="/" className="link">
-            Company
-          </Link>
           <Link to="/about" className="link">
             About Us
           </Link>
