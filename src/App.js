@@ -28,7 +28,7 @@ function App() {
       <Router>
         <Routes>
           <Route element={<PublicLayout />} path="/">
-            <Route path="" element={<Home />} />
+            <Route path="/trackpaytechnologies.com" element={<Home />} />
             <Route path="/loan" element={<Loan />} />
             <Route path="/product" element={<Product />} />
             <Route path="/qr" element={<Qr />} />
